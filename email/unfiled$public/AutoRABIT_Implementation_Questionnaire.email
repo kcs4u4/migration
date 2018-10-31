@@ -1,0 +1,41 @@
+Dear All, 
+
+A Demo Questionnaire has been received from {!Questionnaire_Implementation__c.Company_Name__c}
+
+---------------------------------------------------------------------------------------------------------
+Email id : {!Questionnaire_Implementation__c.Email__c} 
+Company : {!Questionnaire_Implementation__c.Company_Name__c}
+
+Deployment Users
+-------------------------
+Deployment User : {!Questionnaire_Implementation__c.Deployment_User__c}
+
+Questionnaire Info
+-------------------------
+No.of Sandbox in Release : {!Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c}
+
+Size of Sandboxes : {!Questionnaire_Implementation__c.Size_of_Sanboxes__c}
+
+Hours of effort : {!Questionnaire_Implementation__c.Hours_of_effort__c}
+
+Release Duration: {!Questionnaire_Implementation__c.Release_Duration__c}
+
+Challenges : {!Questionnaire_Implementation__c.Challenges__c}
+
+Current Version Control Tool(If Exists) : {!Questionnaire_Implementation__c.Current_Version_Control_Tool_If_Exists__c}
+
+Short Term Goals with current RLM : {!Questionnaire_Implementation__c.Short_Term_Goals_with_current_RLM__c}
+
+Long Term Goals : {!Questionnaire_Implementation__c.Long_Term_Goals__c}
+
+Test Automation Details : {!Questionnaire_Implementation__c.Text_Automation_Details__c}
+
+ALM Tools Details : {!Questionnaire_Implementation__c.ALM_Tools__c}
+
+---------------------------------------------------------------------------------------------------------
+Go to : {!Questionnaire_Implementation__c.Link} for more details .
+
+Please map the IQ Information to the appropriate Lead/Opportunity.
+
+Thanks & Regards,
+Corp Admin - AutoRABIT CRM

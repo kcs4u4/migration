@@ -1,0 +1,67 @@
+<apex:page Controller="TicketWithSupportCtrl" sidebar="false" showHeader="false">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    body.slds-scope{
+        background-color: #e6f5ff;
+    }
+    .slds-container_small{
+    margin:auto;
+    }
+    .slds-scope .slds-no-flex {
+    padding-top: 16px;
+    }
+    .slds-inputfile-wrapper{
+    white-space: nowrap; 
+    overflow:hidden;
+    text-overflow: ellipsis; 
+    } 
+    .main{
+        border: 1px solid #d8dde6;
+        width: 64%;
+        margin: 40px auto;
+        border-radius: 33px;
+        padding: 26px;
+        background: #fff;
+    }
+  </style>
+  <apex:slds />
+  <div class="main" >
+    <div class="slds-spinner_container slds-hide">
+      <div role="status" class="slds-spinner slds-spinner_brand slds-spinner_medium">
+        <span class="slds-assistive-text">Loading</span>
+        <div class="slds-spinner__dot-a"></div>
+        <div class="slds-spinner__dot-b"></div>
+      </div>
+    </div>
+    <div class="slds-container_small slds-box">
+      <div class="slds-card">
+        <div class="slds-card__header slds-grid">
+          <header class="slds-media slds-media_center slds-has-flexi-truncate">
+            <div class="slds-media__figure">
+              <img align="top" src="{!$Resource.AutorabitLogo}" width="150px" />
+            </div>
+            <div class="slds-media__body">
+            </div>
+          </header>
+          <div class="slds-no-flex">
+            <h1 class="ticket-heading">Create a Ticket with Support</h1>
+          </div>
+        </div>
+      </div>
+      <div class="slds-form slds-form_compound slds-p-top_medium">
+        <fieldset class="slds-form-element">
+          <div class="slds-form-element__group sld-btn-group">
+            <div class="slds-form-element__row">
+              <div class="slds-form-element slds-size_1-of-1 slds-text-align_center">
+                <a href='{!$Page.CreateCaseVF}' class="slds-button slds-button_brand" onClick="$('.slds-spinner_container').removeClass('slds-hide');">Create Case</a>
+              </div>
+              <!-- <div class="slds-form-element slds-size_1-of-2 slds-text-align_left">
+               <a href='{!$Page.SearchCaseVF}' class="slds-button slds-button_neutral" onClick="$('.slds-spinner_container').removeClass('slds-hide');">Search Case</a> 
+              </div>-->
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</apex:page>

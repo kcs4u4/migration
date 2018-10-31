@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ForecastingItem$Owner</field>
+    </columns>
+    <columns>
+        <field>ForecastingItem$ForecastingItemCategory</field>
+    </columns>
+    <columns>
+        <field>ForecastingItem$StartDate</field>
+    </columns>
+    <columns>
+        <field>ForecastingItem$EndDate</field>
+    </columns>
+    <columns>
+        <field>ForecastingItem$ForecastAmount</field>
+    </columns>
+    <columns>
+        <field>ForecastingItem$ProductFamily</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ForecastingItem$ForecastCategoryName</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Forecast Report - SK</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Forecasting_Items__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ForecastingItem$EndDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

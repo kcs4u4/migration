@@ -1,0 +1,20 @@
+<apex:page controller="OpportunityContactController" contentType="application/vnd.ms-excel#SFExport-{!SelectedYear}.xls"   language="en-US" >
+   <apex:pageBlock >
+   <apex:pageBlockTable value="{!Contlist}" var="con">
+                <apex:column value="{!con.firstname}"/>
+                <apex:column value="{!con.lastname}"/>
+                <apex:column >
+                <apex:facet name="header">Account </apex:facet>
+                    {!con.Account.name}
+                </apex:column> 
+                <apex:column value="{!con.Phone}"/>
+                <apex:column value="{!con.Email}"/>
+                <apex:column > <apex:facet name="header">Country</apex:facet>
+                        {!con.mailingcountry}
+                    </apex:column>
+                <apex:column > <apex:facet name="header">Opportunity Owner</apex:facet>
+                {!con.Account.owner.name}
+                </apex:column>
+            </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

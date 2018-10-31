@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>BPM_Sales_Group</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BPM Sales Group</label>
+        <sharedTo>
+            <group>BPM_Services_Group</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>BPM_Services_Group</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

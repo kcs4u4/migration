@@ -1,0 +1,157 @@
+<apex:page Standardcontroller="TrailHeaDX__c" extensions="TrailHeaDX" tabStyle="TrailHeaDX__c" sidebar="False" docType="html-5.0">
+    <apex:form >
+        <apex:pageMessages />
+        
+        
+        
+        
+        <apex:pageBlock title="AutoRabit" mode="edit" id="PB">
+            
+            
+            <B>
+                Please take a few Minutes to fill out this Survey on your Salesforce development environment.</B>
+            <br/>
+            &nbsp;
+            <apex:pageBlockSection columns="2" title="1.My Salesforce Role(s) is"> 
+                
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Administrator" />
+                    <apex:inputField value="{!trail.Administrator__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="QA/Tester" />
+                    <apex:inputField value="{!trail.QA_Tester__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Project Management" />
+                    <apex:inputField value="{!trail.Project_Management__c }"/>
+                </apex:pageblockSectionItem> 
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Developer" />
+                    <apex:inputField value="{!trail.Developer__c }"/>
+                </apex:pageblockSectionItem>  <apex:pageblockSectionItem >    
+                <apex:outputLabel value="Release Management" />
+                <apex:inputField value="{!trail.Release_Management__c }"/>
+                </apex:pageblockSectionItem> 
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Other" />
+                    <apex:inputField value="{!trail.Other__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                
+            </apex:pageBlockSection> 
+            <apex:pageBlockSection columns="2" title="2.Our Salesforce development team size is"> 
+                
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="1 to 4" />
+                    <apex:inputField value="{!trail.X1_to_4__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="5 to 14" />
+                    <apex:inputField value="{!trail.X5_to_14__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="15 to 50" />
+                    <apex:inputField value="{!trail.X15_to_50__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="50+" />
+                    <apex:inputField value="{!trail.X50__c}"/>
+                </apex:pageblockSectionItem> 
+                 
+                
+            </apex:pageBlockSection> 
+            
+            <apex:pageBlockSection columns="2" title="3.We use the following types of Softwaare tools"> 
+                
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Version Control" />
+                    <apex:inputField value="{!trail.Version_Control__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Continuous Integration" />
+                    <apex:inputField value="{!trail.Continuous_Integration__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Data Loading" />
+                    <apex:inputField value="{!trail.Data_Loading__c }"/>
+                </apex:pageblockSectionItem> 
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Automated Testing" />
+                    <apex:inputField value="{!trail.Automated_Testing__c }"/>
+                </apex:pageblockSectionItem> 
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Release Management" />
+                    <apex:inputField value="{!trail.Release_Management__c }"/>
+                </apex:pageblockSectionItem> 
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Project Management" />
+                    <apex:inputField value="{!trail.Project_Management__c }"/>
+                </apex:pageblockSectionItem> 
+                
+            </apex:pageBlockSection> 
+            <apex:pageBlockSection columns="2" title="4.I am intrested in Salesforce ALM/DX/DevOps Best Practices"> 
+                
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Yes" />
+                    <apex:inputField value="{!trail.Yes__c }"/>
+                </apex:pageblockSectionItem> 
+                
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="No" />
+                    <apex:inputField value="{!trail.No__c }"/>
+                </apex:pageblockSectionItem> 
+            </apex:pageBlockSection>
+            
+            
+        </apex:pageBlock>
+        <br/>
+        &nbsp;
+        <apex:pageBlock >
+            <B>Please provide Your Contact Information to be Eligible to win a Parrot 2.0 Elite Edition Drone.</B>
+            <br/>
+           &nbsp;
+            <apex:pageBlockSection columns="2">
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="First Name" />
+                    <apex:inputField value="{!trail.First_Name__c }"/>
+                </apex:pageblockSectionItem>
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Last Name" />
+                    <apex:inputField value="{!trail.Last_Name__c }"/>
+                </apex:pageblockSectionItem>
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Email" />
+                    <apex:inputField value="{!trail.Email__c }"/>
+                </apex:pageblockSectionItem>
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Phone" />
+                    <apex:inputField value="{!trail.Phone__c }"/>
+                </apex:pageblockSectionItem>
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Company" />
+                    <apex:inputField value="{!trail.Company__c }"/>
+                </apex:pageblockSectionItem>
+                <apex:pageblockSectionItem >    
+                    <apex:outputLabel value="Location" />
+                    <apex:inputField value="{!trail.Location__c }"/>
+                </apex:pageblockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <div align="center" draggable="false" >
+            <apex:commandButton action="{!TrailHead}" value="Save"/>
+            
+        </div>
+    </apex:form>
+</apex:page>

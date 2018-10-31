@@ -1,0 +1,2 @@
+<apex:page standardController="Sales_Order_Form__c" extensions="Sales_Send_Email"  recordSetVar="test" action="{!getSendMail}">
+</apex:page>

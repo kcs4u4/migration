@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>Case.Final_Resolution__c</field>
+    </columns>
+    <columns>
+        <field>Case.Support_Engineer__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Case.Final_Resolution__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Duplicate/Invalid</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.L1Eng__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Vignesh Ravi,Ravi Chandra,Yousuf Shareef,Shiva Kumar G</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.L1Eng__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>L1 Report</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LAST_UPDATEONLY</dateColumn>
+        <endDate>2017-10-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-09-01</startDate>
+    </timeFrameFilter>
+</Report>

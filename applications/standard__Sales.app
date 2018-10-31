@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-Opportunity</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Questionnaire_Implementation__c</tabs>
+    <tabs>Scope_Poc_Information__c</tabs>
+    <tabs>Customer_Satisfaction_Survey__c</tabs>
+    <tabs>SP</tabs>
+    <tabs>DF_16_Leads__c</tabs>
+    <tabs>TrailHeaDX__c</tabs>
+    <tabs>IncomingEmail__c</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>Order__c</tabs>
+    <tabs>CRM_Request__c</tabs>
+    <tabs>AR_Dashboard__c</tabs>
+    <tabs>Metadata_Component__c</tabs>
+    <tabs>Reports_Junction__c</tabs>
+    <tabs>MultiTest__c</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>Demo_Obj_1__c</tabs>
+    <tabs>Object1__c</tabs>
+</CustomApplication>

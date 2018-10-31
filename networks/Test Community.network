@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles/>
+    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <emailSenderAddress>sreekanth.u@autorabit.com</emailSenderAddress>
+    <emailSenderName>Test Community</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>false</enableGuestFileAccess>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableNicknameDisplay>false</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <navigationLinkSet>
+        <navigationMenuItem>
+            <label>Support</label>
+            <position>1</position>
+            <publiclyAvailable>false</publiclyAvailable>
+            <target>/contactsupport</target>
+            <type>InternalLink</type>
+        </navigationMenuItem>
+    </navigationLinkSet>
+    <networkMemberGroups>
+        <profile>admin</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Designer</homePageOverrideSetting>
+        <loginPageOverrideSetting>Configurable</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>Test_Community1</picassoSite>
+    <recommendationAudience>
+        <recommendationAudienceDetails>
+            <audienceCriteriaType>CustomList</audienceCriteriaType>
+            <setupName>Rec1</setupName>
+        </recommendationAudienceDetails>
+        <recommendationAudienceDetails>
+            <audienceCriteriaType>CustomList</audienceCriteriaType>
+            <setupName>Rec2 New Members</setupName>
+        </recommendationAudienceDetails>
+    </recommendationAudience>
+    <recommendationDefinition>
+        <recommendationDefinitionDetails>
+            <actionUrl>https://summer18-autorabitcommunities.cs13.force.com/communitySetup/cwApp.app#/c/page/recommendationSetup</actionUrl>
+            <description>Test Recommendation</description>
+            <linkText>Recommendation button</linkText>
+            <scheduledRecommendations>
+                <scheduledRecommendationDetails>
+                    <channel>DefaultChannel</channel>
+                    <enabled>true</enabled>
+                    <rank>1</rank>
+                    <recommendationAudience>000000000000000</recommendationAudience>
+                </scheduledRecommendationDetails>
+            </scheduledRecommendations>
+            <setupName>New Recommendations1</setupName>
+        </recommendationDefinitionDetails>
+    </recommendationDefinition>
+    <selfRegistration>false</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>Test_Community</site>
+    <status>UnderConstruction</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
+</Network>

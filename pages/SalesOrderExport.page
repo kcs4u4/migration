@@ -1,0 +1,54 @@
+<apex:page standardController="Sales_Order_Form__c" contentType="application/vnd.ms-excel#SalesOrderForm.xls">
+    <apex:pageBlock title="Hello {!$User.FirstName}!">
+ You are viewing the Sales Order form for {!Sales_Order_Form__c.Opportunity__r.Name}
+        <apex:pageBlock title="Account Details">
+            <apex:pageBlockTable value="{!Sales_Order_Form__c}" var="SOF">
+                <apex:column value="{!Sales_Order_Form__c.Name}"/>
+                <apex:column value="{!Sales_Order_Form__c.Sales_Person__r.Name}"/>
+                <apex:column value="{!Sales_Order_Form__c.Sales_Order_Form_Status__c}"/>
+
+            </apex:pageBlockTable>     
+        </apex:pageBlock>
+        <apex:pageBlock title="Client Details">
+            <apex:pageBlockTable value="{!Sales_Order_Form__c}" var="SOF">
+                <apex:column value="{!Sales_Order_Form__c.Client_Name__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.End_Client_Location__c}"/>
+            </apex:pageBlockTable>     
+        </apex:pageBlock>
+        <apex:pageBlock title="Subscription Details">
+            <apex:pageBlockTable value="{!Sales_Order_Form__c}" var="SOF">
+                <apex:column value="{!Sales_Order_Form__c.Start_Date__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Projected_End_Date__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.No_of_Subscriptions__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Invoicing_frequency__c}"/>
+            </apex:pageBlockTable>     
+        </apex:pageBlock>
+        <apex:pageBlock title="Support Details">
+            <apex:pageBlockTable value="{!Sales_Order_Form__c}" var="SOF">
+                <apex:column value="{!Sales_Order_Form__c.Was_support_purchased__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Support_Start_Date__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Projected_Support_End_Date__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.No_of_Support__c}"/>
+            </apex:pageBlockTable>     
+        </apex:pageBlock>
+        <apex:pageBlock title="Billing Information">
+            <apex:pageBlockTable value="{!Sales_Order_Form__c}" var="SOF">
+                <apex:column value="{!Sales_Order_Form__c.Billing_contact_person_s_name__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Billing_Address__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Phone__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Email__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Email_Invoice_to__c}"/>
+            </apex:pageBlockTable>     
+        </apex:pageBlock>
+        <apex:pageBlock title="3rd Party Information(IF ANY)">
+            <apex:pageBlockTable value="{!Sales_Order_Form__c}" var="SOF">
+                <apex:column value="{!Sales_Order_Form__c.Was_any_3rd_party_services_used__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.X3rd_Party_Billing_Contact_Name__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Who_will_AutoRABIT_pay_for_item__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Hourly_cost__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Address__c}"/>
+                <apex:column value="{!Sales_Order_Form__c.Billing_methodology_details__c}"/>
+            </apex:pageBlockTable>     
+        </apex:pageBlock>
+    </apex:pageBlock>
+</apex:page>

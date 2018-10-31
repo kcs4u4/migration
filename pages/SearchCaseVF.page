@@ -1,0 +1,173 @@
+<apex:page Controller="TicketWithSupportCtrl" sidebar="false" showHeader="false">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    body.slds-scope{
+    background-color: #e6f5ff;
+    }
+    .slds-container_small,.slds-container_medium{
+    margin:auto;
+    }
+    .slds-scope .slds-no-flex {
+    padding-top: 16px;
+    }
+    .slds-inputfile-wrapper{
+    white-space: nowrap; 
+    overflow:hidden;
+    text-overflow: ellipsis; 
+    }
+    .slds-scope hr {
+    display: block;
+    margin: 2rem 0;
+    border-top: 1px solid #f58027;
+    height: 2px;
+    clear: both;
+    background: #f58027;
+    }
+    .main{
+    border: 1px solid #d8dde6;
+    width: 64%;
+    margin: 40px auto;
+    border-radius: 33px;
+    padding: 26px;
+    background: #fff;
+    }  
+    .slds-scope .slds-modal__close {
+        top: -1.5rem;
+        right: -1.5rem;
+    }
+    .slds-scope .slds-modal__header {
+        border-bottom: 2px solid #fff;
+        padding: 0rem; 
+    }
+    .slds-scope th>div.slds-truncate,.slds-scope td>div.slds-truncate{
+        white-space: pre-wrap;
+    }           
+  </style>
+  <apex:slds />
+  <div class='main'>
+    <apex:form styleClass="slds-scope">
+      <div class="slds-spinner_container slds-hide">
+        <div role="status" class="slds-spinner slds-spinner_brand slds-spinner_medium">
+          <span class="slds-assistive-text">Loading</span>
+          <div class="slds-spinner__dot-a"></div>
+          <div class="slds-spinner__dot-b"></div>
+        </div>
+      </div>
+      <div class="slds-container_medium slds-box">
+        <div class="slds-card">
+          <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+              <div class="slds-media__figure">
+                <img align="top" src="{!$Resource.AutorabitLogo}" width="150px" />
+              </div>
+              <div class="slds-media__body">
+              </div>
+            </header>
+            <div class="slds-no-flex">
+              <a href='{!$Page.CreateCaseVF}' class="slds-button slds-button_brand slds-btn_search-case create-case"  onClick="$('.slds-spinner_container').removeClass('slds-hide');">Create Case</a>
+            </div>
+          </div>
+        </div>
+        <div class="slds-form slds-form_compound slds-p-top_medium">
+          <div class="slds-form-element__group">
+            <div class="slds-form-element__row">
+              <div class="slds-size_2-of-8"></div>
+              <div class="slds-form-element slds-size_3-of-8">
+                <apex:inputText value="{!emailValue}" styleClass="slds-input" html-placeholder="Enter AutoRABIT User Name"/>
+              </div>
+              <div class="slds-size_3-of-8 slds-p-left_medium">
+                <apex:commandButton value="Search" action="{!searchCases}" styleClass="slds-button slds-button_brand" reRender="details" onClick="$('.slds-spinner_container').removeClass('slds-hide');"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <apex:outputPanel id="details">
+        <apex:outputPanel rendered="{!caseList.size>0}">
+          <script>
+            $('.slds-spinner_container').addClass('slds-hide');
+          </script>
+          <div class='slds-container_medium slds-m-top_medium'>
+            <hr/>
+            <div class="slds-form slds-form_compound slds-container_medium slds-m-bottom_medium">
+              <div class="slds-form-element__group slds-box">
+                <div class="slds-form-element__row">
+                  <div class="slds-form-element slds-size_1-of-2">
+                    <label class="slds-form-element__label">Issue Raised by:</label>
+                    <span class="slds-form-element__static slds-grow">&nbsp;{!caseList[0].SuppliedName}</span>
+                  </div>
+                  <div class="slds-form-element slds-size_1-of-2">
+                    <label class="slds-form-element__label">Email:</label>
+                    <span class="slds-form-element__static slds-grow">&nbsp;{!caseList[0].SuppliedEmail}</span>
+                  </div>
+                </div>
+                <div class="slds-form-element__row">
+                  <div class="slds-form-element slds-size_1-of-2">
+                    <label class="slds-form-element__label">Company:</label>
+                    <span class="slds-form-element__static slds-grow">&nbsp;{!caseList[0].SuppliedCompany}</span>
+                  </div>
+                  <div class="slds-form-element slds-size_1-of-2">
+                    <label class="slds-form-element__label">Login Url:</label>
+                    <span class="slds-form-element__static slds-grow">&nbsp;{!caseList[0].Login_Url__c}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+              <thead>
+                <tr class="slds-text-title_caps">
+                  <th scope="col">
+                    <div class="slds-truncate" title="CaseNumber">Case Number</div>
+                  </th>
+                  <th scope="col">
+                    <div class="slds-truncate" title="Subject">Subject</div>
+                  </th>
+                  <th scope="col">
+                    <div class="slds-truncate" title="Status">Status</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <apex:repeat value="{!caseList}" var="case">
+                  <tr>
+                    <th scope="row" data-label="Opportunity Name">
+                      <div class="slds-truncate" title="CaseNumber">{!case.CaseNumber}</div>
+                    </th>
+                    <td data-label="Account Name">
+                      <div class="slds-truncate" title="Subject">{!case.Subject}</div>
+                    </td>
+                    <td data-label="Close Date">
+                      <div class="slds-truncate" title="Status">{!case.Status}</div>
+                    </td>
+                  </tr>
+                </apex:repeat>
+              </tbody>
+            </table>
+          </div>
+        </apex:outputPanel>
+        <apex:outputPanel rendered="{!caseList.size==0 && !ISBLANK(emailValue)}">
+          <script>
+            $('.slds-spinner_container').addClass('slds-hide');
+            $('.demo-only').removeClass('slds-hide');
+          </script>
+        </apex:outputPanel>
+      </apex:outputPanel>
+    </apex:form>
+    <div class="demo-only slds-hide" style="height: 640px;">
+      <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+        <div class="slds-modal__container">
+          <header class="slds-modal__header">
+            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick="$('.demo-only').addClass('slds-hide');">
+              X
+              <span class="slds-assistive-text">Close</span>
+            </button>
+          </header>
+          <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+            <p>No records found!</p>
+          </div>
+        </div>
+      </section>
+      <div class="slds-backdrop slds-backdrop_open"></div>
+    </div>
+  </div>
+</apex:page>

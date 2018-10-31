@@ -1,0 +1,222 @@
+<apex:page Controller="TicketWithSupportCtrl" sidebar="false" showHeader="false">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <style>
+    .slds-container_small{
+    margin:auto;
+    }
+    .slds-scope .slds-no-flex {
+    padding-top: 16px;
+    }
+    
+    .slds-inputfile-wrapper{
+        white-space: nowrap; 
+        overflow:hidden;
+        text-overflow: ellipsis; 
+    } 
+  </style>
+  <apex:slds />
+  <apex:outputPanel id="form">
+  <div class="slds-scope" >
+  
+    <div class="slds-spinner_container slds-hide">
+      <div role="status" class="slds-spinner slds-spinner_brand slds-spinner_medium">
+        <span class="slds-assistive-text">Loading</span>
+        <div class="slds-spinner__dot-a"></div>
+        <div class="slds-spinner__dot-b"></div>
+      </div>
+    </div>
+    <div class="slds-container_small slds-box">
+      <apex:form id="form1">
+        <apex:outputPanel >
+        <script>
+         var isCreateCaseVisible="{!isCreateCaseVisible}";
+            
+        if(isCreateCaseVisible=="true"){
+           $(".dummy-wrapper").removeClass("slds-hide");
+        }
+        else{              
+           $(".dummy-wrapper").addClass("slds-hide");
+        }
+            
+        </script>
+          <div class="slds-card">
+            <div class="slds-card__header slds-grid">
+              <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                  <img align="top" src="{!$Resource.AutorabitLogo}" width="150px" />
+                </div>
+                <div class="slds-media__body">
+                </div>
+              </header>
+              <div class="slds-no-flex">
+                <h1 class="ticket-heading {!if(OR(isCreateCaseVisible,isSearchCaseVisible),'slds-hide','')}">Create a Ticket with Support</h1>
+                <apex:outputPanel id="btnWrapper">
+                  <apex:outputPanel rendered="{!isSearchCaseVisible}">
+                    <apex:commandButton styleClass="slds-button slds-button_brand slds-btn_create-case search-case" value="Create Case" onclick="createToggle();" reRender="none"/>
+                  </apex:outputPanel>
+                  <apex:outputPanel rendered="{!isCreateCaseVisible}">
+                    <apex:commandButton styleClass="slds-button slds-button_brand slds-btn_search-case create-case" value="Search Case" onclick="searchToggle();" reRender="none"/>
+                  </apex:outputPanel>
+                </apex:outputPanel>
+              </div>
+            </div>
+          </div>
+          <div class="slds-form slds-form_compound slds-p-top_medium">
+            <fieldset class="slds-form-element">
+              <div class="slds-form-element__group sld-btn-group {!if(OR(isCreateCaseVisible,isSearchCaseVisible),'slds-hide','')}">
+                <div class="slds-form-element__row">
+                  <div class="slds-form-element slds-size_1-of-2 slds-text-align_right">
+                    <apex:commandButton styleClass="slds-button slds-button_brand" value="Create Case" onclick="createToggle();" reRender="none" status="loading"/>
+                  </div>
+                  <div class="slds-form-element slds-size_1-of-2 slds-text-align_left">
+                    <apex:commandButton styleClass="slds-button slds-button_neutral search-case" value="Search Case" onclick="searchToggle();" reRender="none" status="loading"/>
+                  </div>
+                </div>
+              </div>
+              <apex:actionRegion immediate="true" rendered="{!isCreateCaseVisible}" id="createCase">
+                <!--create case start-->             
+                <apex:outputPanel styleClass="create-case" layout="block" >
+                  <div class="slds-form-element__group">
+                    <div class="slds-form-element__row">
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <label class="slds-form-element__label" for="input-01">Full Name:</label>
+                        <apex:inputText value="{!c.SuppliedName}" styleClass="slds-input slds-input-fname" html-name="fullName"/>
+                      </div>
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <label class="slds-form-element__label" for="input-02">AutoRABIT UserName:</label>
+                        <apex:inputText value="{!c.SuppliedEmail}" styleClass="slds-input"/>
+                      </div>
+                    </div>
+                    <!--- row 1 end-->
+                    <div class="slds-form-element__row">
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <label class="slds-form-element__label" for="input-01">Login Instance:</label>
+                        <apex:inputText value="{!c.Login_Url__c}" styleClass="slds-input"/>
+                      </div>
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <label class="slds-form-element__label" for="input-02">
+                          <apex:outputLabel value="Priority:" for="acctss"></apex:outputLabel>
+                        </label>
+                        <div class="slds-select_container">
+                          <apex:selectList id="acctss" styleClass="slds-select" value="{!userPriority}" size="1" title="Contact">
+                            
+                            <apex:selectOptions value="{!Priority1}"></apex:selectOptions>
+                          </apex:selectList>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--- row 2 end-->
+                  <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_1-of-2">
+                      <label class="slds-form-element__label" for="input-02">
+                        <apex:outputLabel value="Feature Type:" for="acctss"></apex:outputLabel>
+                      </label>
+                      <div class="slds-select_container">
+                        <apex:selectList styleClass="slds-select" value="{!featureTypeVal}" size="1" title="Contact">
+                          <apex:selectOptions value="{!Category}"></apex:selectOptions>
+                        </apex:selectList>
+                      </div>
+                    </div>
+                    <div class="slds-form-element slds-size_1-of-2">
+                      <label class="slds-form-element__label" for="input-01">Subject:</label>
+                      <apex:inputText value="{!c.Subject}" styleClass="slds-input"/>
+                    </div>
+                  </div>
+                  <!--- row 3 end-->  
+                </apex:outputPanel>
+              </apex:actionRegion>
+              <!--create case end-->
+              <!--search case start-->
+              <apex:actionRegion immediate="true" rendered="{!isSearchCaseVisible}" id="searchCase">
+                <apex:outputPanel styleClass="search-case" layout="block">
+                  <div class="slds-form-element__group">
+                    <div class="slds-form-element__row">
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <apex:inputText value="{!emailValue}" styleClass="slds-input" html-placeholder="Email"/>
+                      </div>
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <apex:commandButton value="Search" action="{!searchCases}" styleClass="slds-button slds-button_brand"/>
+                      </div>
+                    </div>
+                  </div>
+                </apex:outputPanel>
+              </apex:actionRegion>
+              <!--search case end-->            
+            </fieldset>
+            <apex:actionFunction name="createToggle" action="{!createCaseToggle}" reRender="form" status="loading"/>
+            <apex:actionFunction name="searchToggle" action="{!searchCaseToggle}" reRender="form" status="loading"/>
+            <apex:actionFunction name="caseSave" action="{!caseSave}" reRender="form" status="loading"/>
+            <apex:actionStatus id="loading" onstart="showLoader()" onstop="hideLoader()"/>
+          </div>
+        </apex:outputPanel>
+        <apex:commandButton styleClass="slds-button slds-button_brand slds-button_save slds-hide" value="Submit" action="{!caseSave}"/>
+      </apex:form>
+      <apex:form styleClass="dummy-wrapper slds-hide"  >
+      <div class="slds-form slds-form_compound">
+       <fieldset class="slds-form-element">
+        <div class="slds-form-element__group">
+          <div class="slds-form-element__row">
+            <div class="slds-form-element slds-size_1-of-2">
+              <label class="slds-form-element__label" for="input-unique-id">Comments:</label>
+              <div class="slds-form-element__control">
+                <apex:inputTextArea styleclass="slds-textarea"  rows="3" value="{!c.description}" />
+              </div>
+            </div>
+            <div class="slds-form-element slds-size_1-of-2 slds-inputfile-wrapper">
+              <span class="slds-form-element__label" id="file-selector-id">Attachment</span>
+              <div class="slds-form-element__control">
+                  <apex:inputfile value="{!attach.body}" styleClass="inputFile" filename="{!attach.name}" required="true"/>  
+                  
+              </div>
+            </div>
+          </div>
+          <div class="slds-form-element__row slds-text-align_center">
+            <div class="slds-form-element">
+              <!--<apex:commandButton styleClass="slds-button slds-button_brand slds-button_save" value="Submit" action="{!caseSave}"/>-->
+              <input type="button" class="slds-button slds-button_brand slds-button_save" value="Submit" onclick="sendData();"/>
+            </div>
+          </div>          
+        </div>
+        </fieldset>
+        </div>
+            <apex:actionFunction name="caseSave1" action="{!caseSave}">
+                <apex:param name="fname" assignTo="{!companyName}" value=""/>
+            </apex:actionFunction>
+            <apex:actionStatus id="loading" onstart="showLoader()" onstop="hideLoader()" />
+      </apex:form>
+    </div>
+  </div>
+</apex:outputPanel>
+  <script>
+    $(document).on('click','.slds-button_save',function(){
+        var c=0;
+        $('.errorMsg').remove();
+        $(":text,select,:file,textarea").each(function(e,elem){
+          var bol = !($(this).val() || $(this).find(":selected").length);          
+          if(bol){
+            c++
+            $(this).after('<p class="errorMsg">Error: You must enter a value</p>');
+           }
+        })
+        
+        if(c>0)
+        return false;
+        
+        
+    })
+    
+    function showLoader(){
+        $('.slds-spinner_container').removeClass('slds-hide');
+    }
+    function hideLoader(){
+        $('.slds-spinner_container').addClass('slds-hide');         
+    } 
+    function sendData(){
+        var fname = $('textarea').val();
+        alert(fname);
+        caseSave1(fname);
+    }         
+  </script>
+</apex:page>

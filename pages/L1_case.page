@@ -1,0 +1,397 @@
+<apex:page standardController="Case" extensions="L1_Case" >
+    <apex:form >
+        <apex:pageBlock Title="Case Number:{!case1.CaseNumber}" rendered="{!IF(case1.Reason=='Builds/Project Failures',True,False)}">
+            <apex:pageBlockSection title="Builds/Project Failures" id="Test1" >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  CI Job Name :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:inputField value="{!case1.CI_Job_Name__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+       <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  Org Name :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:outputField value="{!case1.Org_Name__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  Instance :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:outputField value="{!case1.Instance__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> -->
+
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  1. Issue Related To :"  style="font-weight: bold;">
+                        Build: <apex:inputField value="{!case1.CI_Build__c}"/>
+                        Deployment:<apex:inputField value="{!case1.CI_Deployment__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  2. Checked Build/Deployment logs in UI:"  style="font-weight: bold;">
+                        <apex:inputField value="{!case1.Build_Deployement_log_Check__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/> 
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  3. Any Error in Step 2: "  style="font-weight: bold;"> 
+                        <apex:inputcheckbox value="{!case1.Error_In_Step_2_Check__c}" label="Same as Above">
+                            <apex:actionSupport event="onchange" rerender="Test1" />
+                        </apex:inputcheckbox>
+                        
+                        <apex:outputPanel rendered="{!case1.Error_In_Step_2_Check__c}"> 
+                            <apex:outputText value="Paste Error:" style="color:red;font-size:7pt;" ></apex:outputText> 
+                            <apex:inputField value="{!Case1.Step_2_Url__c}" />   
+                        </apex:outputPanel>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  4. Any Error in Rabitcs.log:"  style="font-weight: bold;">
+                        <apex:inputcheckbox value="{!case1.Error_in_rabics_log_check__c}" >
+                            <apex:actionSupport event="onchange" rerender="Test1" />
+                        </apex:inputcheckbox>
+                        
+                        <apex:outputPanel rendered="{!case1.Error_in_rabics_log_check__c}"> 
+                            <apex:outputText value="Paste Error:" style="color:red;font-size:7pt;" ></apex:outputText>
+                            <apex:inputField value="{!Case1.case1_Text__c}" />  
+                            
+                            
+                        </apex:outputPanel>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  5. Error in Step 3 and 4 is User Related:"  style="font-weight: bold;">
+                        <apex:inputField value="{!case1.Step_3_4_Related_Chek__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  6. Error in Step 3 and 4 is AR Related:"  style="font-weight: bold;">
+                        <apex:inputField value="{!case1.X3_4_AR_Related_check__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  7. Check Build log in Path:"  style="font-weight: bold;"> &nbsp; <apex:inputField value="{!case1.Build_Log_in_Path__c}"/>
+                        <div style="color:red;font-size:8pt;" draggable="false" >&nbsp;&nbsp;&nbsp; /home/ubuntu/.rabit/logs/Org Name/Project Name/" </div>
+                        
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>               
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  8. Check Deployment log in Path:"  style="font-weight: bold;">&nbsp; 
+                        <apex:inputField value="{!case1.Deployment_log_in_path__c}"/>
+                        <div style="color:red;font-size:8pt;" draggable="false" >&nbsp;&nbsp;&nbsp; /home/ubuntu/.rabit/logs/rtalogs/Org Name/Project Name/ </div>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  9. Check Catalina in Path:"  style="font-weight: bold;"> &nbsp;  <apex:inputField value="{!case1.Catalina_log_path_check__c}"/>
+                        <div style="color:red;font-size:8pt;" draggable="false" >&nbsp;&nbsp;&nbsp; /opt/newhd/rabitinstall/apache-tomcat-8.0.41/logs </div>                       
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  10. Check CRUISCONTROL Path:"  style="font-weight: bold;"> &nbsp;  <apex:inputField value="{!case1.CruisControl_Path_Check__c}"/>
+                        <div style="color:red;font-size:8pt;" draggable="false" >&nbsp;&nbsp;&nbsp; /opt/newhd/rabitinstall/rba/buildagent</div>    
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  11. Any Other Details:"  style="font-weight: bold;">
+                        <apex:inputField value="{!case1.Other_Details__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <br/>  
+        </apex:pageBlock>
+        
+        <apex:pageBlock Title="Case Number:{!case1.CaseNumber}" rendered="{!IF(case1.Reason=='Deployments',True,False)}">
+            <apex:pageBlockSection title="Deployments" id="Test1" >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  Deployment Label :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:inputField value="{!case1.Deployment_Label__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+         <!--       <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  Org Name :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:outputField value="{!case1.Org_Name__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  Instance :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:outputField value="{!case1.Instance__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> -->
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  1. Source:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <apex:inputField value="{!case1.Deplyoment_Source__c}"/>
+                        
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  2. Destination:"  style="font-weight: bold;">&nbsp;
+                        <apex:inputField value="{!case1.Deployment_Destination__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/> 
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  3. Check Error in SFDC UI: "  style="font-weight: bold;"> 
+                        <apex:inputcheckbox value="{!case1.Depl_Salesforce_Error_Check__c}">
+                            <apex:actionSupport event="onchange" rerender="Test1" />
+                        </apex:inputcheckbox>
+                        
+                        <apex:outputPanel rendered="{!case1.Depl_Salesforce_Error_Check__c}"> 
+                            <apex:outputText value="Paste Error:" style="color:red;font-size:7pt;" ></apex:outputText> 
+                            <apex:inputField value="{!Case1.Depl_Salesforce_Error__c}" />   
+                        </apex:outputPanel>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  4. Check Error in AR UI: "  style="font-weight: bold;"> 
+                        <apex:inputcheckbox value="{!case1.Depl_AR_Error_Check__c}">
+                            <apex:actionSupport event="onchange" rerender="Test1" />
+                        </apex:inputcheckbox>
+                        
+                        <apex:outputPanel rendered="{!case1.Depl_AR_Error_Check__c}"> 
+                            <apex:outputText value="Paste Error:" style="color:red;font-size:7pt;" ></apex:outputText> 
+                            <apex:inputField value="{!Case1.Depl_AR_Error__c}" />   
+                        </apex:outputPanel>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  5. Check Rabitcs.log:"  style="font-weight: bold;">
+                        <apex:inputcheckbox value="{!case1.Error_in_rabics_log_check__c}">
+                            <apex:actionSupport event="onchange" rerender="Test1" />
+                        </apex:inputcheckbox>
+                        
+                        <apex:outputPanel rendered="{!case1.Error_in_rabics_log_check__c}"> 
+                            <apex:outputText value="Paste Error:" style="color:red;font-size:7pt;" ></apex:outputText>
+                            <apex:inputField value="{!Case1.case1_Text__c}" />   
+                        </apex:outputPanel>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  6. Check Build/Deployment log in Path:"  style="font-weight: bold;">&nbsp; 
+                        <apex:inputField value="{!case1.Deployment_log_in_path__c}"/>
+                        <div style="color:red;font-size:8pt;" draggable="false" >&nbsp;&nbsp;&nbsp; /home/ubuntu/.rabit/logs/rtalogs/Org Name/Project Name/ </div>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  7. Check Catalina in Path:"  style="font-weight: bold;"> &nbsp;  <apex:inputField value="{!case1.Catalina_log_path_check__c}"/>
+                        <div style="color:red;font-size:8pt;" draggable="false" >&nbsp;&nbsp;&nbsp; /opt/newhd/rabitinstall/apache-tomcat-8.0.41/logs </div>                       
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  8. Reproduce Issue:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;                        <apex:inputField value="{!case.Reproduce_Issue__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  9. Any Other Details:"  style="font-weight: bold;">
+                        <apex:inputField value="{!case1.Other_Details__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                
+            </apex:pageBlockSection>
+            
+            <br/>  
+            
+        </apex:pageBlock>
+        
+        
+        <apex:pageBlock Title="Case Number:{!case1.CaseNumber}"  rendered="{!IF(case1.Reason=='EZ - Commits',True,False)}"  >
+            
+            <apex:pageBlockSection title="Version Control" id="Test1" >
+                
+           <!--     <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  Org Name :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:outputField value="{!case1.Org_Name__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="*  Instance :"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;
+                        <apex:outputField value="{!case1.Instance__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> -->
+                <br/>
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  1. Check Error in SFDC UI: "  style="font-weight: bold;"> 
+                        <apex:inputcheckbox value="{!case1.Depl_Salesforce_Error_Check__c}">
+                            <apex:actionSupport event="onchange" rerender="Test1" />
+                        </apex:inputcheckbox>
+                        
+                        <apex:outputPanel rendered="{!case1.Depl_Salesforce_Error_Check__c}"> 
+                            <apex:outputText value="Paste Error:" style="color:red;font-size:7pt;" ></apex:outputText> 
+                            <apex:inputField value="{!Case1.Depl_Salesforce_Error__c}" />   
+                        </apex:outputPanel>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <apex:pageBlockSectionItem >    
+                    <apex:outputLabel value="  2. Check Rabitcs.log:"  style="font-weight: bold;">
+                        <apex:inputcheckbox value="{!case1.Error_in_rabics_log_check__c}">
+                            <apex:actionSupport event="onchange" rerender="Test1" />
+                        </apex:inputcheckbox>
+                        
+                        <apex:outputPanel rendered="{!case1.Error_in_rabics_log_check__c}"> 
+                            <apex:outputText value="Paste Error:" style="color:red;font-size:7pt;" ></apex:outputText>
+                            <apex:inputField value="{!Case1.case1_Text__c}" />   
+                        </apex:outputPanel>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br/>
+                
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  3. Check Catalina in Path:"  style="font-weight: bold;"> &nbsp;  <apex:inputField value="{!case1.Catalina_log_path_check__c}"/>
+                        <div style="color:red;font-size:8pt;" draggable="false" >&nbsp;&nbsp;&nbsp; /opt/newhd/rabitinstall/apache-tomcat-8.0.41/logs </div>                       
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <br/>
+            <apex:pageBlockSection title="EZ-Commits">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  1. Creating metadata connection:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.Creating_metadata_connection__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  2. Processing the userId changes:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.Processing_the_userId_changes__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  3. Preparing package manifest file with selected metadata members.:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.Preparing_package__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  4. Creating version control connection:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Creating_version_control__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  5. Valdating version control credentials:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Valdating_version_control__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  6. {!case1.Org_Name__c} : Working copy already exists.Updating the working copy:"  style="font-weight: bold;"> &nbsp;&nbsp;&nbsp;&nbsp;             
+                        <apex:inputField value="{!case.EZ_Working_copy__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  7. {!case1.Org_Name__c} : Working copy not exists. Taking checkout Handling submetadata types:"  style="font-weight: bold;" escape="false">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Working_Copy_Not_Exists__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  8. Preparing package manifest on files retrieved.:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Preparing_package__c  }"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    
+                    
+                    <apex:outputLabel value="9. Preparing destructive changes on prepared package manifest on files retrieved.:"    style="font-weight:bold;float: right;width:600px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                        <apex:inputField value="{!case.EZ_Preparing_destructive__c}"/> 
+                    </apex:outputLabel>
+                    
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  10. Deleting destructive changes:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Deleting_destructive__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  11. Deleted destructive changes.:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Deleted_destructive__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  12. Appending retrieved metadata to SCM working copy.:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_SCM_working_copy__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  13. Adding new files Commiting changes to repository:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Adding_new_files__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  14. Commit Process has been completed successfully:"  style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;              
+                        <apex:inputField value="{!case.EZ_Commit_Process__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem> 
+                <br/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="  15. Any Other Details:"  style="font-weight: bold;">
+                        <apex:inputField value="{!case1.Other_Details__c}"/>
+                    </apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock> 
+        <div align="center" draggable="false" >
+            <apex:commandButton value="Save" action="{!Save}"/>
+            <apex:commandButton value="Cancel" action="{!Cancel}"/>
+        </div>
+    </apex:form>
+</apex:page>
