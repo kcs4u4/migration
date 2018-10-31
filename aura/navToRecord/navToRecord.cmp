@@ -1,0 +1,4 @@
+<aura:component >
+    <aura:attribute name="recordID" type="String"/>
+    <p><a onclick="{!c.han}" > Click Record</a></p>
+</aura:component>

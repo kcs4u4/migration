@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Newtest {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Newtest</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create</name>
+        <label>Create</label>
+        <locationX>468</locationX>
+        <locationY>152</locationY>
+        <inputAssignments>
+            <field>Branch1__c</field>
+            <value>
+                <stringValue>abc</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Branch__c</object>
+    </recordCreates>
+    <screens>
+        <name>NewTest</name>
+        <label>NewTest</label>
+        <locationX>143</locationX>
+        <locationY>84</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Create</targetReference>
+        </connector>
+        <fields>
+            <name>New</name>
+            <dataType>String</dataType>
+            <fieldText>New</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>NewTest</startElementReference>
+</Flow>

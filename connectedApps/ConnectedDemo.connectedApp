@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>kcs4u4@ggmail.com</contactEmail>
+    <label>ConnectedDemo</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:8080/rabit/sfdxoauth/_callback
+http://localhost:8080/rabit/oauth/_callback
+https://kcs-dev-ed.my.salesforce.com/one/one.app
+https://www.google.com/</callbackUrl>
+        <certificate>MIIDlDCCAnwCCQCwvI1LF5lfzDANBgkqhkiG9w0BAQsFADCBizELMAkGA1UEBhMCSW4xCzAJBgNVBAgMAlRTMRIwEAYDVQQHDAlIeWRlcmFiYWQxEjAQBgNVBAoMCUF1dG9SYWJpdDESMBAGA1UECwwJQXV0b1JhYml0MQ0wCwYDVQQDDARmcWRuMSQwIgYJKoZIhvcNAQkBFhVzdXBwb3J0QGF1dG9yYWJpdC5jb20wHhcNMTcxMDA5MTcwMjM0WhcNMTgxMDA5MTcwMjM0WjCBizELMAkGA1UEBhMCSW4xCzAJBgNVBAgMAlRTMRIwEAYDVQQHDAlIeWRlcmFiYWQxEjAQBgNVBAoMCUF1dG9SYWJpdDESMBAGA1UECwwJQXV0b1JhYml0MQ0wCwYDVQQDDARmcWRuMSQwIgYJKoZIhvcNAQkBFhVzdXBwb3J0QGF1dG9yYWJpdC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgHe1uqDUMwo9Uu50VjKkGw9UvD2INAuWTwBWjLy2hgMd1ffRdG9tSnmTa9q9beZvD5EYqWv3PYP7q2CpuW6h6yRS5tkLdhSU5IDE8d0cKPnftjB5FpwuRMxLSX6EZB88fkyXch57rk3StuDCaBMb9r0hu8b7UhWODd8rWgRJyfHUMqc3yRqArMqZtUwRmuUj1MC81FQ0VSDBpHsyGlGrq5+ONitwNleMkYiIkoLVATWbjIXWi+qQPMaL/W29oEpG+INgw9BYKp/T4fktxE8uvU5fUwJel9RN9p7Bo0ZL9ZAJpqgdoJ2vgyKvbc2iyaJ/8s1fPOhRgKnMf/5duZ5IPAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAD7nNsFHop6hpMxZDs++lHLPZiuhICqCP5W2dw4jvICpa/4V0J8ITRz3YM5bXMSyxUbIlVFELSxOO1uB2KU/fhWWJ+7Txa6TKZAEiAijBlbqC0uTwmumV/JsoJe+UJkX+NBeVNlVHyG1Hn4eOGm9dyImcRTXSrVEy5QFSYQDuVJFklMJxYy0E9r/cpZLvKM6O/nWEyJAAvLYcaKHZOthJKxLxy0gaq5gRwgTdCt+Oq7tfGmRYqEHydWQ5XTL/LxvdqalrQ3WL+A9sZOcHsww18whD+h07l0WfWzNgy3OE9XHUHr/gi6xf/Glhria1KbKTm+8aJZki3I8jRqYLfcVhb4=</certificate>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

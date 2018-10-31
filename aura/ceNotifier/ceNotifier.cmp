@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:registerEvent name="cmpEvent" type="c.ceEvent" />
+    <!-- Lightning button for notify the Event -->
+    <p><lightning:button label="click here for notify" onclick="{!c.fireComponentEvent}" /></p>
+</aura:component>

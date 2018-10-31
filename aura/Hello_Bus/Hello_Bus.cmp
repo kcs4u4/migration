@@ -1,0 +1,10 @@
+<aura:component >
+	<lightning:layout multipleRows="true">
+<lightning:layoutItem padding="around-small" size="6" class="slds-p-left_xx-large">
+    <span class="alignment_required">*</span> <lightning:inputField fieldName="Sales_Area__c" aura:id="sales_Area"/>
+ </lightning:layoutItem>
+<lightning:layoutItem size="3" padding="around-small">
+      <lightning:button label="Get Approvers" Value="Get Approvers" onclick="{!c.getApproversList}" class="buttonAlign"/>
+</lightning:layoutItem>
+</lightning:layout>
+</aura:component>

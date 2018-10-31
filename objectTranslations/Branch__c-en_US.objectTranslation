@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Branch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branch</value>
+    </caseValues>
+    <quickActions>
+        <label><!-- Escalate --></label>
+        <name>NewComment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>NewTest</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>bfbb</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Comments --></label>
+        <name>fdgfhh</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Priority --></label>
+        <name>hghhhh</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Child Branch --></label>
+        <name>sfergrg</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

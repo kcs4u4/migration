@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>41.0</apiVersion>
+    <attachments>
+        <content>RGVmYXVsdCB2YWx1ZToNCg0KSUYoJExhYmVsLmtjc19kZXZfX2R4X2FwaT09TnVsbCwgJ0NoYW5kdScsJ0dvdWQnICkgDQpJRigkTGFiZWwua2NzX2Rldl9fZHhfYXBpIT1OdWxsLCAkTGFiZWwua2NzX2Rldl9fZHhfYXBpLCdHb3VkJyApDQpJRigkTGFiZWwua2NzX2Rldl9fZHhfYXBpIT1OdWxsLCAkTGFiZWwua2NzX2Rldl9fZHhfYXBpLCRMYWJlbC5rY3NfZGV2X19keF9hcGkyICkNCigkTGFiZWwua2NzX2Rldl9fZHhfYXBpICkgJiAoJExhYmVsLmtjc19kZXZfX2R4X2FwaTIgKQ0KDQpGb3JtdWxhIEZpZWxkOjo6Og0KDQpJRigga2NzX2Rldl9fQ3VycmVuY3lfX2M+MTAwMDAsIChrY3NfZGV2X19DdXJyZW5jeV9fYyAqIDEwKSAvIDEwMCwgKGtjc19kZXZfX0N1cnJlbmN5X19jICo1KSAvIDEwMCkgICx7aWYgU3RhdGVtZW50ICxPcGVydGFvcnMgKCosKCwpLC8gKX0gDQoNCklGKCBrY3NfZGV2X19CcmFuY2gyX19yLmtjc19kZXZfX1NhbGFyeV9fYyA+PSAxMDAwMCwgKGtjc19kZXZfX0N1cnJlbmN5X19jICogMTApIC8gMTAwLCAoa2NzX2Rldl9fQ3VycmVuY3lfX2MgKjUpIC8gMTAwKQ0KDQpJRihrY3NfZGV2X19CcmFuY2gyX19yLk5hbWUgIT1OdWxsICwgJExhYmVsLmtjc19kZXZfX2R4X2FwaSArICRMYWJlbC5rY3NfZGV2X19keF9hcGkyICwga2NzX2Rldl9fQnJhbmNoM19fci5OYW1lICkge0xhYmVsICwgT2JqZWN0ICxPcGVydGFvcnN9DQoNClRSSU0oTEVGVCgga2NzX2Rldl9fQnJhbmNoMl9fci5OYW1lICw1KSkgICB7Q3VzdG9tT2JqZWN0fQ0KDQprY3NfZGV2X19CcmFuY2gyX19yLk5hbWUgKyBUUklNKFJJR0hUKGtjc19kZXZfX0JyYW5jaDNfX3IuTmFtZSAsMykpIHtUd28gQ3VzdG9tT2JqZWN0cyxPcGVyYXRvcnMsRnVuY3Rpb25zfQ0KDQpJRihBTkQoIGtjc19kZXZfX0JyYW5jaDJfX3Iua2NzX2Rldl9fU2FsYXJ5X19jIDwxLCBrY3NfZGV2X19CcmFuY2gxX19yLmtjc19kZXZfX05ld0VtYWlsX19jID09J2JjQGFiYy5jb20nKSwiICRMYWJlbC5EWF9BUEkgIiwNCiRMYWJlbC5rY3NfZGV2X19keF9hcGkyICkgICB7MiBvYmplY3RzICwgY3VzdG9tTGFiZWwsIG9wZXJhdG9yc30NCg0K</content>
+        <name>field data.txt</name>
+    </attachments>
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>NewComp</name>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>3</minorNumber>
+        <namespace>Field_Trip</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>79</minorNumber>
+        <namespace>MC4SF</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>relateiq</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>15</minorNumber>
+        <namespace>sf_chttr_apps</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>7</minorNumber>
+        <namespace>sf_com_apps</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>9</minorNumber>
+        <namespace>woobot</namespace>
+    </packageVersions>
+    <style>none</style>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

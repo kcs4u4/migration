@@ -1,0 +1,16 @@
+<apex:page standardController="Account" extensions="AccountReport" >
+    <apex:form >
+    <apex:pageBlock >
+        <apex:pageBlockSection >	
+        <apex:inputField value="{!account.type}" styleClass="relative" >
+      
+         <apex:actionSupport event="onchange" action="{!recordValues}" reRender="val" />
+            </apex:inputField>
+        </apex:pageBlockSection>
+        <apex:dataTable value="{!acc}" var="a" id="val" >
+            <apex:column value="{!a.name}" headerValue="Name" /> &nbsp;
+             <apex:column value="{!a.Type}" headerValue="Type" />
+        </apex:dataTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:attribute name="MessageFromevent" type="String" />
+    <aura:attribute name="NumberofEvents" type="Integer" default="0" />
+    
+    <aura:handler name="cmpEvent" event="c.ceEvent" action="{!c.HandleComponent}" />
+    
+   <c:ceNotifier />
+    
+    <p>message : {!v.MessageFromevent} </p>
+    <p>Number Of Events : {!v.NumberofEvents}</p>
+</aura:component>

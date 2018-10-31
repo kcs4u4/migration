@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatSensitiveDataRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionType>Remove</actionType>
+    <enforceOn>6</enforceOn>
+    <isEnabled>true</isEnabled>
+    <pattern>New Label</pattern>
+</LiveChatSensitiveDataRule>

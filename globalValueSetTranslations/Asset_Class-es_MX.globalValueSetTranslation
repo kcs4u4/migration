@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Bond</masterLabel>
+        <translation>Hello</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Commodity</masterLabel>
+        <translation>Translate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Currency</masterLabel>
+        <translation>Translate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Equity</masterLabel>
+        <translation>Translate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fixed Income</masterLabel>
+        <translation>Translate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Multi-Asset</masterLabel>
+        <translation>Translate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Volatility</masterLabel>
+        <translation>Translate</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

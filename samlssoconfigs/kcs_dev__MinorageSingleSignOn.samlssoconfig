@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>https://auth.miniorange.com</issuer>
+    <loginUrl>https://auth.miniorange.com/moas/idp/samlsso</loginUrl>
+    <logoutUrl>https://kcs-dev-ed.my.salesforce.com</logoutUrl>
+    <name>MinorageSingleSignOn</name>
+    <oauthTokenEndpoint>https://kcs-dev-ed.my.salesforce.com/services/oauth2/token?so=00D28000001ImLu</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P10K000005tiSS</requestSigningCertId>
+    <salesforceLoginUrl>https://kcs-dev-ed.my.salesforce.com?so=00D28000001ImLu</salesforceLoginUrl>
+    <samlEntityId>https://kcs-dev-ed.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDGDCCAgCgAwIBAgIIcXjmMWrPH4MwDQYJKoZIhvcNAQELBQAwTDELMAkGA1UEBhMCSU4xEzARBgNVBAoTCm1pbmlPcmFuZ2UxEzARBgNVBAsTCm1pbmlPcmFuZ2UxEzARBgNVBAMTCm1pbmlPcmFuZ2UwHhcNMTgxMDI2MDY0NzMzWhcNMjgxMDIzMDY0NzMzWjBMMQswCQYDVQQGEwJJTjETMBEGA1UEChMKbWluaU9yYW5nZTETMBEGA1UECxMKbWluaU9yYW5nZTETMBEGA1UEAxMKbWluaU9yYW5nZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIeHpqx6b/j0tYHAlYtyFt1YQPPJbWkzz/UC4cyrVrei4qz44yeM/NftiPu2qnl4IETgjmaSC6A9H01oDX0vWSJ+v+o0RVNpRkC5cv46A4PV9yCjU/RXv4pcgZBVbJnFU9u5l9ldccDy+P3jGzX5OHOO3sxywKRi9a5mMeaIXE90h+zaFhI9I9IGROEA2KRpNYHjSJSBNhUh3lKPYmRUZe7+0kFUzVtZISmAA/mLXZgHYSFMDcDqL6TtjrT02+nHikf0GcWpFM1m3080cYaI+xL7Mxm+TKwQ4gXx4edOChNvjiyhHf0qfF2ygO0oCdNGXv1zQ2SBK59jce+dWC85hG0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAaqG3lfQM4c1OFJ6oZNjuOFCjN8ZVKyTI/cfD/44wgF9cMv21cq+rDHGBOJdOnZtUXqFTSb96f/uduoBahnAT6+E2wp9Ct8XvQprGHUPe3OsLr7o/i3NyO3ZozMct+nC/3neJ7CLzLDBodcnnPxgijPPyZonZNiG2t60PVIc46RE6MkLMgRrJht8PW/wR7UAHAPcWzANPsZyNwvq+iDqQng1JhJGrmzQg0WbvgJ49GhoFs7oxm+2fnyht/4eZB9pVreRIPWAaQj+rfMtTD/m5Ds6bfXyOU8h6ke0eqIbzEtmAbA1BONGeaznJ3rph6R4qAyhK2pM+9YHRE/LBsqnbVQ==</validationCert>
+</SamlSsoConfig>

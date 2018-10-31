@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Category 1 Biking.Navigational:Alert</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Alert</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Category 1 Biking.Navigational:Alert1</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Alert1</name>
+        <parentName>Alert</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

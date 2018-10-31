@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>AutoRABITlogo11</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>DX</label>
+    <navType>Standard</navType>
+    <tabs>DX_AUTORABIT</tabs>
+    <tabs>button</tabs>
+    <tabs>External_Application__c</tabs>
+    <tabs>Jio__x</tabs>
+    <tabs>Travel_Forecast_Form__c</tabs>
+    <tabs>Property__c</tabs>
+    <tabs>AutoRabitTest__c</tabs>
+    <tabs>ARVault__c</tabs>
+    <tabs>Object_Depenency__c</tabs>
+    <tabs>Categorys__x</tabs>
+    <tabs>Audit_Trail__c</tabs>
+    <tabs>Testabc__c</tabs>
+    <tabs>Data1__c</tabs>
+    <tabs>SetupTest__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>DX_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_out_a_confirmation_email</name>
+        <label>Send out a confirmation email</label>
+        <locationX>161</locationX>
+        <locationY>241</locationY>
+        <actionName>Case.Case_close_email_notification</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>VarT_caseID</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <interviewLabel>Send an HTML email from Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Send an HTML email from Flow</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Case_State_Closed</name>
+        <label>Case State Closed</label>
+        <locationX>154</locationX>
+        <locationY>91</locationY>
+        <connector>
+            <targetReference>Send_out_a_confirmation_email</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>VarT_caseID</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Closed</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <startElementReference>Case_State_Closed</startElementReference>
+    <variables>
+        <name>VarT_caseID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+</Flow>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <adapterUrl>http://localhost:11000</adapterUrl>
+    <displayName>DO NOT USE - AMERICA - Brazil</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>Internal Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>Description</label>
+            <name>reqDescription</name>
+            <value>Call Center - AMERICA - Brazil</value>
+        </items>
+        <items>
+            <label>CTI Connector ProgId</label>
+            <name>reqProgId</name>
+            <value>GenesysCTIAdapter.GenesysCTIAdapter.1</value>
+        </items>
+        <items>
+            <label>Version</label>
+            <name>reqVersion</name>
+            <value>4.0</value>
+        </items>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>http://localhost:11000</value>
+        </items>
+        <items>
+            <label>Add ANI URL</label>
+            <name>IconURLAddAni</name>
+            <value>/servlet/servlet.ImageServer?id=015A0000002d1rK&amp;oid=00D1F000000Cni4</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>TServer Primary Name</label>
+            <name>reqTServerPrimaryName</name>
+            <value>AMERICA_TServer_Brazil</value>
+        </items>
+        <items>
+            <label>Tserver Primary Host</label>
+            <name>reqTServePrimaryHost</name>
+            <value>10.218.103.235</value>
+        </items>
+        <items>
+            <label>Tserver Primary Port</label>
+            <name>reqTServePrimaryPort</name>
+            <value>7006</value>
+        </items>
+        <items>
+            <label>Tserver Backup Name</label>
+            <name>reqTServerBachupName</name>
+            <value>AMERICA_TServer_Brazil_bkp</value>
+        </items>
+        <items>
+            <label>Tserver Backup Host</label>
+            <name>reqTServerBachupHost</name>
+            <value>10.218.103.236</value>
+        </items>
+        <items>
+            <label>Tserver Backup Port</label>
+            <name>reqTServerBachupPort</name>
+            <value>7006</value>
+        </items>
+        <label>Genesys TServer Info</label>
+        <name>reqTServerOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>ConfigServer Primary Host</label>
+            <name>reqConfigServerPrimaryHost</name>
+            <value>10.218.103.235</value>
+        </items>
+        <items>
+            <label>ConfigServer Primary Port</label>
+            <name>reqConfigServerPrimaryPort</name>
+            <value>7000</value>
+        </items>
+        <items>
+            <label>ConfigServer Backup Host</label>
+            <name>reqConfigServerBackupHost</name>
+            <value>10.218.103.236</value>
+        </items>
+        <items>
+            <label>ConfigServer Backup Port</label>
+            <name>reqConfigServerBackupPort</name>
+            <value>7000</value>
+        </items>
+        <items>
+            <label>ConfigServer Routing Point</label>
+            <name>reqConfigServerRoutingPoint</name>
+            <value>70061</value>
+        </items>
+        <items>
+            <label>ConfigServer Call Routing Point</label>
+            <name>reqConfigCallRoutingPoint</name>
+            <value>70053</value>
+        </items>
+        <items>
+            <label>ConfigServer Switch</label>
+            <name>reqConfigServerSwitch</name>
+            <value>Brazil</value>
+        </items>
+        <items>
+            <label>ConfigServer ReasonCode Section</label>
+            <name>reqConfigReasCodeServerSection</name>
+            <value>Brazil</value>
+        </items>
+        <label>Genesys ConfigServer Info</label>
+        <name>reqConfigServerOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>StatServer Primary Name</label>
+            <name>reqStatServerPrimaryName</name>
+            <value>AMERICA_Stat_Server_AGT</value>
+        </items>
+        <items>
+            <label>StatServer Primary Host</label>
+            <name>reqStatServerPrimaryHost</name>
+            <value>10.218.103.235</value>
+        </items>
+        <items>
+            <label>StatServer Primary Port</label>
+            <name>reqStatServerPrimaryPort</name>
+            <value>7003</value>
+        </items>
+        <items>
+            <label>StatServer Backup Name</label>
+            <name>reqStatServerBachupName</name>
+            <value>AMERICA_Stat_Server_AGT_bkp</value>
+        </items>
+        <items>
+            <label>StatServer Backup Host</label>
+            <name>reqStatServerBachupHost</name>
+            <value>10.218.103.236</value>
+        </items>
+        <items>
+            <label>StatServer Backup Port</label>
+            <name>reqStatServerBachupPort</name>
+            <value>7003</value>
+        </items>
+        <items>
+            <label>StatServer Client TimeOut</label>
+            <name>reqstatServerClientTimeOut</name>
+            <value>100</value>
+        </items>
+        <items>
+            <label>StatServer Server TimeOut</label>
+            <name>reqstatServerServerTimeOut</name>
+            <value>100</value>
+        </items>
+        <items>
+            <label>StatServer List Country</label>
+            <name>reqStatServerListCountry</name>
+            <value>Brazil</value>
+        </items>
+        <items>
+            <label>Display EWT Queue In Transfer Window</label>
+            <name>DisplayEWTQueueInTransfer</name>
+            <value>NO</value>
+        </items>
+        <label>Genesys StatServer Info</label>
+        <name>reqStatServerOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Internal Number Length</label>
+            <name>reqInternalLength</name>
+            <value>5</value>
+        </items>
+        <items>
+            <label>Internal Refresh Timer</label>
+            <name>reqRefreshTimer</name>
+            <value>400</value>
+        </items>
+        <label>Dialing Options</label>
+        <name>reqDialingOptions</name>
+    </sections>
+    <version>4</version>
+</CallCenter>

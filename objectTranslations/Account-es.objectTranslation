@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <quickActions>
+        <label><!-- Lightning Data Service --></label>
+        <name>Lightning_Data_Service</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Member --></label>
+        <name>Member</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>test</name>
+    </quickActions>
+</CustomObjectTranslation>

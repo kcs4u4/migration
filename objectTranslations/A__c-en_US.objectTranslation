@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>A</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>A</value>
+    </caseValues>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>NewAction143</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>NewEmil</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>NewLight</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Notification --></label>
+        <name>Notification</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Testing123 --></label>
+        <name>Testing123</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>newMail123</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Comments --></label>
+        <name>newUpdate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>ssax</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>xasxsa</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

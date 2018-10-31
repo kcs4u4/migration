@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionLinkGroupTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionLinkTemplates>
+        <actionUrl>https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/action_link_group_template.htm</actionUrl>
+        <isConfirmationRequired>false</isConfirmationRequired>
+        <isGroupDefault>false</isGroupDefault>
+        <labelKey>Accept</labelKey>
+        <linkType>API</linkType>
+        <method>HttpHead</method>
+        <position>0</position>
+        <userVisibility>Everyone</userVisibility>
+    </actionLinkTemplates>
+    <category>Primary</category>
+    <executionsAllowed>Once</executionsAllowed>
+    <isPublished>false</isPublished>
+    <name>xxsc</name>
+</ActionLinkGroupTemplate>
