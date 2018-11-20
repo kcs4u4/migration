@@ -2,11 +2,23 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>43.0</version>
     <types>
+        <members>LEXTHEMINGNewTheme1</members>
+        <name>BrandingSet</name>
+    </types>
+    <types>
+        <members>Test_Flexi</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>myobj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>Account.AccountFiledSet</members>
         <name>FieldSet</name>
+    </types>
+    <types>
+        <members>NewTheme1</members>
+        <name>LightningExperienceTheme</name>
     </types>
 </Package>
