@@ -28,6 +28,11 @@
             <isRequired>false</isRequired>
         </availableFields>
         <description>Visual Force Page</description>
+        <displayedFields>
+            <field>of_Ownership__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
         <label>AccountFiledSet</label>
     </fieldSets>
 </CustomObject>
