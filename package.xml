@@ -10,6 +10,11 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Custom_Test__c.Expense__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Custom_Test__c</members>
         <members>myobj__c</members>
         <name>CustomObject</name>
     </types>
