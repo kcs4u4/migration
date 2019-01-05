@@ -54,16 +54,5 @@
         <fullName>State</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <fields>
-        <fullName>Territory2__c</fullName>
-        <encrypted>false</encrypted>
-        <externalId>false</externalId>
-        <label>Territory2</label>
-        <length>50</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

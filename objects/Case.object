@@ -56,30 +56,6 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>NewCase</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Escalated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Test123</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Working</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <fields>
@@ -102,19 +78,6 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>CaseType__c</fullName>
-        <encrypted>false</encrypted>
-        <externalId>false</externalId>
-        <label>CaseType</label>
-        <length>3</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>ClosedDate</fullName>
@@ -148,21 +111,13 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>CurrencyIsoCode</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>EngineeringReqNumber__c</fullName>
-        <encrypted>false</encrypted>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
         <length>12</length>
@@ -172,17 +127,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Instance__c</fullName>
-        <encrypted>false</encrypted>
-        <externalId>false</externalId>
-        <label>Instance</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Url</type>
     </fields>
     <fields>
         <fullName>IsClosedOnCreate</fullName>
@@ -195,19 +139,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Login_Url__c</fullName>
-        <encrypted>false</encrypted>
-        <externalId>false</externalId>
-        <label>Login Url</label>
-        <length>100</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Origin</fullName>
@@ -370,7 +301,6 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -398,15 +328,6 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
-    <listViews>
-        <fullName>AccountQueue_Case</fullName>
-        <filterScope>Queue</filterScope>
-        <label>AccountQueue</label>
-        <queue>AccountQueue</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
@@ -436,16 +357,8 @@
     </listViews>
     <listViews>
         <fullName>MyCases</fullName>
-        <columns>CASES.CASE_NUMBER</columns>
-        <columns>NAME</columns>
-        <columns>CASES.SUBJECT</columns>
-        <columns>CASES.STATUS</columns>
-        <columns>CASES.PRIORITY</columns>
-        <columns>CASES.CREATED_DATE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Team</filterScope>
+        <filterScope>Mine</filterScope>
         <label>My Cases</label>
-        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>MyOpenCases</fullName>
@@ -456,19 +369,6 @@
             <value>0</value>
         </filters>
         <label>My Open Cases</label>
-    </listViews>
-    <listViews>
-        <fullName>newtestcase</fullName>
-        <columns>CASES.CASE_NUMBER</columns>
-        <columns>NAME</columns>
-        <columns>CASES.SUBJECT</columns>
-        <columns>CASES.STATUS</columns>
-        <columns>CASES.PRIORITY</columns>
-        <columns>CASES.CREATED_DATE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Team</filterScope>
-        <label>newtestcase</label>
-        <language>en_US</language>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
@@ -491,26 +391,7 @@
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
-    <webLinks>
-        <fullName>Close_Case</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Close Case</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>flow/Send_an_HTML_email_from_Flow?VarT_caseID={!Case.Id}&amp;returl={!Case.Id}</url>
-    </webLinks>
+    <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>

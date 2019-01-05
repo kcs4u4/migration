@@ -21,14 +21,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>Test1</fullName>
-        <default>false</default>
-        <label>Test1</label>
-    </standardValue>
-    <standardValue>
-        <fullName>TEST2</fullName>
-        <default>false</default>
-        <label>TEST2</label>
-    </standardValue>
 </StandardValueSet>

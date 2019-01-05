@@ -46,6 +46,11 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>Name</fields>
+        <fields>ActivityFrom</fields>
+        <fields>ActivityTo</fields>
+    </miniLayout>
     <relatedLists>
         <fields>Name</fields>
         <fields>FeedbackType</fields>

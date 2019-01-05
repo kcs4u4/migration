@@ -10,10 +10,6 @@
                 <behavior>Required</behavior>
                 <field>ParentGoalId</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CurrencyIsoCode</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

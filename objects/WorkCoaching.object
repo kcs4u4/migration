@@ -47,11 +47,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CurrencyIsoCode</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>IsInactive</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

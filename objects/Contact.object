@@ -78,11 +78,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Contact_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>ViewCustomerPortal</actionName>
@@ -99,186 +95,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <fieldSets>
-        <fullName>MC4SF__Contact_Filter_Fields</fullName>
-        <description>used on the MailChimp query builder</description>
-        <displayedFields>
-            <field>AssistantName</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>AssistantPhone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Birthdate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Fax</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Phone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Description</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>CreatedDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Department</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>DoNotCall</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Email</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>HasOptedOutOfFax</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>FirstName</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Name</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>HomePhone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastActivityDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastModifiedDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastName</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastCURequestDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastCUUpdateDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LeadSource</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>MailingCity</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>MailingCountry</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>MailingState</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>MailingStreet</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>MailingPostalCode</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>MobilePhone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OtherCity</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OtherCountry</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OtherPhone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OtherState</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OtherStreet</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OtherPostalCode</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Salutation</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Title</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OwnerId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <label>Contact Filter Fields</label>
-    </fieldSets>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
@@ -286,12 +102,10 @@
     </fields>
     <fields>
         <fullName>AssistantName</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>AssistantPhone</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -299,23 +113,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Branch__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Branch</label>
-        <referenceTo>Branch__c</referenceTo>
-        <relationshipLabel>Contacts</relationshipLabel>
-        <relationshipName>Contacts</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>CleanStatus</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>CurrencyIsoCode</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -324,7 +122,6 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -333,37 +130,11 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Fax</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>FieloEE__Member__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Member</label>
-        <referenceTo>FieloEE__Member__c</referenceTo>
-        <relationshipLabel>Contacts</relationshipLabel>
-        <relationshipName>Contacts</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>FieloEE__RegistrationURL__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <formula>FieloEE__Member__r.FieloEE__Program__r.FieloEE__SiteURL__c +  $Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c + &apos;RegisterStep2?mId=&apos; + FieloEE__Member__c</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Registration URL</label>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -375,7 +146,6 @@
     </fields>
     <fields>
         <fullName>HomePhone</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -384,7 +154,6 @@
     </fields>
     <fields>
         <fullName>Languages__c</fullName>
-        <encrypted>false</encrypted>
         <externalId>false</externalId>
         <label>Languages</label>
         <length>100</length>
@@ -433,41 +202,23 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>MC4SF__MC_Subscriber__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>MC Subscriber</label>
-        <referenceTo>MC4SF__MC_Subscriber__c</referenceTo>
-        <relationshipLabel>Contacts</relationshipLabel>
-        <relationshipName>Contacts</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>MailingAddress</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>MobilePhone</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>OtherAddress</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>OtherPhone</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -477,7 +228,6 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -486,47 +236,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Stage__c</fullName>
-        <externalId>false</externalId>
-        <label>Stage</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Prospect</fullName>
-                    <default>false</default>
-                    <label>Prospect</label>
-                </value>
-                <value>
-                    <fullName>Showing</fullName>
-                    <default>false</default>
-                    <label>Showing</label>
-                </value>
-                <value>
-                    <fullName>Offer</fullName>
-                    <default>false</default>
-                    <label>Offer</label>
-                </value>
-                <value>
-                    <fullName>Closing</fullName>
-                    <default>false</default>
-                    <label>Closing</label>
-                </value>
-                <value>
-                    <fullName>Archive</fullName>
-                    <default>false</default>
-                    <label>Archive</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Title</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <listViews>
@@ -592,72 +302,4 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
-    <webLinks>
-        <fullName>FieloEE__ConvertContact</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <linkType>url</linkType>
-        <masterLabel>Convert Contact</masterLabel>
-        <openType>replace</openType>
-        <protected>false</protected>
-        <url>/apex/{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}ContactConvertion?contactId={!Contact.Id}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>FieloEE__Convert_Contact</fullName>
-        <availability>online</availability>
-        <displayType>massActionButton</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>Convert Contacts</masterLabel>
-        <openType>sidebar</openType>
-        <page>FieloEE__ContactConvertion</page>
-        <protected>false</protected>
-        <requireRowSelection>true</requireRowSelection>
-    </webLinks>
-    <webLinks>
-        <fullName>FieloEE__InviteContact</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <linkType>url</linkType>
-        <masterLabel>Invite Contact</masterLabel>
-        <openType>replace</openType>
-        <protected>false</protected>
-        <url>/apex/{!$Setup.FieloEE__PublicSettings__c.FieloEE__PackagePrefix__c}ContactInvite?contactId={!Contact.Id}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>FieloEE__Invite_Contact</fullName>
-        <availability>online</availability>
-        <displayType>massActionButton</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>Invite Contacts</masterLabel>
-        <openType>sidebar</openType>
-        <page>FieloEE__ContactInvite</page>
-        <protected>false</protected>
-        <requireRowSelection>true</requireRowSelection>
-    </webLinks>
-    <webLinks>
-        <fullName>MC4SF__MailChimp_Subscriptions_detail</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>MailChimp Subscriptions</masterLabel>
-        <openType>noSidebar</openType>
-        <page>MC4SF__SubscriptionsContact</page>
-        <protected>false</protected>
-    </webLinks>
-    <webLinks>
-        <fullName>MC4SF__MailChimp_Subscriptions_list</fullName>
-        <availability>online</availability>
-        <displayType>massActionButton</displayType>
-        <linkType>page</linkType>
-        <masterLabel>MailChimp Subscriptions</masterLabel>
-        <openType>replace</openType>
-        <page>MC4SF__SubscriptionsContactList</page>
-        <protected>false</protected>
-        <requireRowSelection>true</requireRowSelection>
-    </webLinks>
 </CustomObject>

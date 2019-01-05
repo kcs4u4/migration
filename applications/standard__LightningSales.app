@@ -3,61 +3,24 @@
     <formFactors>Small</formFactors>
     <formFactors>Medium</formFactors>
     <formFactors>Large</formFactors>
-    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
-    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>NewAccount1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>StUser1</profile>
-    </profileActionOverrides>
-    <tabs>standard-home</tabs>
-    <tabs>standard-Opportunity</tabs>
-    <tabs>standard-Lead</tabs>
-    <tabs>standard-Task</tabs>
-    <tabs>standard-File</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>standard-Contact</tabs>
-    <tabs>standard-Campaign</tabs>
-    <tabs>standard-Dashboard</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Feed</tabs>
-    <tabs>standard-CollaborationGroup</tabs>
-    <tabs>standard-Event</tabs>
-    <tabs>standard-OtherUserProfile</tabs>
-    <tabs>standard-Case</tabs>
-    <tabs>standard-Forecasting3</tabs>
-    <tabs>Camping_Item__c</tabs>
-    <tabs>Branch__c</tabs>
-    <tabs>Branch2__c</tabs>
-    <tabs>Branch3__c</tabs>
-    <tabs>Branch1__c</tabs>
-    <tabs>A__c</tabs>
-    <tabs>B__c</tabs>
-    <tabs>C__c</tabs>
-    <tabs>Expense__c</tabs>
-    <tabs>Suggestion__c</tabs>
-    <tabs>Students1</tabs>
-    <tabs>Stsudent1</tabs>
-    <tabs>Waypoint__c</tabs>
-    <tabs>standard-Quote</tabs>
-    <tabs>External_Application__c</tabs>
-    <tabs>Jio__x</tabs>
-    <tabs>Travel_Forecast_Form__c</tabs>
-    <tabs>Property__c</tabs>
-    <tabs>AutoRabitTest__c</tabs>
-    <tabs>ARVault__c</tabs>
-    <tabs>Object_Depenency__c</tabs>
-    <tabs>Categorys__x</tabs>
-    <tabs>Audit_Trail__c</tabs>
-    <tabs>Testabc__c</tabs>
-    <tabs>APR_20__c</tabs>
-    <tabs>Data1__c</tabs>
-    <tabs>SetupTest__c</tabs>
+    <tab>standard-home</tab>
+    <tab>standard-Opportunity</tab>
+    <tab>standard-Lead</tab>
+    <tab>standard-Task</tab>
+    <tab>standard-File</tab>
+    <tab>standard-Account</tab>
+    <tab>standard-Contact</tab>
+    <tab>standard-Campaign</tab>
+    <tab>standard-Dashboard</tab>
+    <tab>standard-report</tab>
+    <tab>standard-Feed</tab>
+    <tab>standard-CollaborationGroup</tab>
+    <tab>standard-Event</tab>
+    <tab>standard-OtherUserProfile</tab>
+    <tab>standard-Case</tab>
+    <tab>standard-Forecasting3</tab>
+    <tab>Obj2__c</tab>
     <uiType>Lightning</uiType>
-    <utilityBar>Sales_UtilityBar</utilityBar>
 </CustomApplication>

@@ -2,15 +2,21 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Open - Not Contacted</fullName>
+        <fullName>New - Not Contacted</fullName>
         <default>true</default>
-        <label>Open - Not Contacted</label>
+        <label>New - Not Contacted</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
         <fullName>Working - Contacted</fullName>
         <default>false</default>
         <label>Working - Contacted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Nurturing - Contacted</fullName>
+        <default>false</default>
+        <label>Nurturing - Contacted</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
@@ -23,18 +29,6 @@
         <fullName>Closed - Not Converted</fullName>
         <default>false</default>
         <label>Closed - Not Converted</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>Not Completed</fullName>
-        <default>false</default>
-        <label>Not Completed</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>Next123</fullName>
-        <default>false</default>
-        <label>Next123</label>
         <converted>false</converted>
     </standardValue>
 </StandardValueSet>

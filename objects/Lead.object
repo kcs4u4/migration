@@ -72,277 +72,16 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>New Lead Process</fullName>
-        <isActive>false</isActive>
-        <values>
-            <fullName>Closed - Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Closed - Not Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Open - Not Contacted</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Working - Contacted</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
-    <businessProcesses>
-        <fullName>NextProcess</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed - Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Closed - Not Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Next123</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Not Completed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Open - Not Contacted</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Working - Contacted</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
-    <businessProcesses>
-        <fullName>Test</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed - Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Closed - Not Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Next123</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Not Completed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Open - Not Contacted</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Working - Contacted</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
-    <businessProcesses>
-        <fullName>axsax</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed - Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Closed - Not Converted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Next123</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Not Completed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Open - Not Contacted</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Working - Contacted</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <fieldSets>
-        <fullName>MC4SF__Lead_Filter_Fields</fullName>
-        <description>used in the MailChimp query builder</description>
-        <displayedFields>
-            <field>AnnualRevenue</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>City</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Company</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Country</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>CreatedDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Description</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>DoNotCall</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Email</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>NumberOfEmployees</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>HasOptedOutOfFax</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Fax</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>FirstName</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Name</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Industry</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastActivityDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastModifiedDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LastName</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>LeadSource</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>MobilePhone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Phone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Rating</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Salutation</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>State</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Status</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Street</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Title</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Website</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>PostalCode</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <label>Lead Filter Fields</label>
-    </fieldSets>
     <fields>
         <fullName>Address</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Branch_Code__c</fullName>
-        <encrypted>false</encrypted>
-        <externalId>false</externalId>
-        <label>Branch Code</label>
-        <length>50</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>CampaignId</fullName>
@@ -354,7 +93,6 @@
     </fields>
     <fields>
         <fullName>Company</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -362,12 +100,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>CurrencyIsoCode</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
         <fullName>CurrentGenerators__c</fullName>
-        <encrypted>false</encrypted>
         <externalId>false</externalId>
         <label>Current Generator(s)</label>
         <length>100</length>
@@ -383,7 +116,6 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -392,12 +124,10 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Fax</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -426,41 +156,12 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Lead_Number__c</fullName>
-        <displayFormat>{0}</displayFormat>
-        <externalId>false</externalId>
-        <label>Lead Number</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>MC4SF__MC_Subscriber__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>MC Subscriber</label>
-        <referenceTo>MC4SF__MC_Subscriber__c</referenceTo>
-        <relationshipLabel>Leads</relationshipLabel>
-        <relationshipName>Leads</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>MobilePhone</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>true</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>New_Quick__c</fullName>
-        <displayFormat>A-{0000}</displayFormat>
-        <externalId>false</externalId>
-        <label>New Quick</label>
-        <type>AutoNumber</type>
     </fields>
     <fields>
         <fullName>NumberOfEmployees</fullName>
@@ -484,11 +185,11 @@
     </fields>
     <fields>
         <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -548,20 +249,7 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Round_Robin_Id__c</fullName>
-        <externalId>false</externalId>
-        <formula>MOD(VALUE(Lead_Number__c),3)+1</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Round Robin Id</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>SICCode__c</fullName>
-        <encrypted>false</encrypted>
         <externalId>false</externalId>
         <label>SIC Code</label>
         <length>15</length>
@@ -577,12 +265,10 @@
     </fields>
     <fields>
         <fullName>Title</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Website</fullName>
-        <encrypted>false</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <listViews>
@@ -604,15 +290,6 @@
             <value>1</value>
         </filters>
         <label>My Unread Leads</label>
-    </listViews>
-    <listViews>
-        <fullName>Test1_Lead</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Test1</label>
-        <queue>Test1</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
     </listViews>
     <listViews>
         <fullName>TodaysLeads</fullName>
@@ -672,25 +349,14 @@
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
-        <fullName>MC4SF__MailChimp_Subscriptions_detail</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>MailChimp Subscriptions</masterLabel>
-        <openType>noSidebar</openType>
-        <page>MC4SF__SubscriptionsLead</page>
-        <protected>false</protected>
-    </webLinks>
-    <webLinks>
-        <fullName>MC4SF__MailChimp_Subscriptions_list</fullName>
+        <fullName>Mass_Convert_Leads</fullName>
         <availability>online</availability>
         <displayType>massActionButton</displayType>
         <height>600</height>
         <linkType>page</linkType>
-        <masterLabel>MailChimp Subscriptions</masterLabel>
-        <openType>noSidebar</openType>
-        <page>MC4SF__SubscriptionsLeadList</page>
+        <masterLabel>Mass Convert Leads</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassLeadConverter</page>
         <protected>false</protected>
         <requireRowSelection>true</requireRowSelection>
     </webLinks>

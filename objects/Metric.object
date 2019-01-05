@@ -48,11 +48,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CurrencyIsoCode</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>CurrentValue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -90,19 +85,6 @@
         <fullName>Name</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>OrigMetricId__c</fullName>
-        <caseSensitive>true</caseSensitive>
-        <encrypted>false</encrypted>
-        <externalId>false</externalId>
-        <label>OrigMetricId</label>
-        <length>18</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>true</unique>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>

@@ -6,6 +6,7 @@
             <profile>standardaul</profile>
             <profile>analytics cloud integration user</profile>
             <profile>analytics cloud security user</profile>
+            <profile>cpq integration user</profile>
             <profile>cross org data proxy user</profile>
             <profile>custom: marketing profile</profile>
             <profile>custom: sales profile</profile>
@@ -19,12 +20,8 @@
             <profile>marketingprofile</profile>
             <profile>contractmanager</profile>
             <profile>partner app subscription user</profile>
-            <profile>sysadmin</profile>
             <profile>work.com only user</profile>
         </profiles>
-        <users>
-            <user>kcs4u4@gmail.com</user>
-        </users>
     </assignments>
     <label>Web Support</label>
 </Skill>

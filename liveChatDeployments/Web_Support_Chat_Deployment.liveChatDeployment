@@ -6,5 +6,5 @@
     <enablePrechatApi>false</enablePrechatApi>
     <enableTranscriptSave>false</enableTranscriptSave>
     <label>Web Support Chat Deployment</label>
-    <windowTitle>Category 1 Biking</windowTitle>
+    <windowTitle>help center</windowTitle>
 </LiveChatDeployment>

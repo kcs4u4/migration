@@ -68,9 +68,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CurrencyIsoCode</fullName>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>

@@ -36,28 +36,8 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>NewSolution</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Draft</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Duplicate</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Reviewed</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <fields>
-        <fullName>CurrencyIsoCode</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
     <fields>
         <fullName>IsPublished</fullName>
         <trackHistory>true</trackHistory>

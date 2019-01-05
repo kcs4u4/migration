@@ -9,22 +9,5 @@
         <fullName>Ownership</fullName>
         <type>Picklist</type>
     </fields>
-    <fields>
-        <fullName>TestMail__c</fullName>
-        <externalId>false</externalId>
-        <label>TestMail</label>
-        <required>false</required>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Test__c</fullName>
-        <externalId>false</externalId>
-        <label>Test</label>
-        <length>50</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

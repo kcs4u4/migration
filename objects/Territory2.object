@@ -48,16 +48,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Territory1__c</fullName>
-        <encrypted>false</encrypted>
-        <externalId>false</externalId>
-        <label>Territory1</label>
-        <length>50</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Territory2ModelId</fullName>
         <type>Lookup</type>
     </fields>
