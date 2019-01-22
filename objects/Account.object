@@ -35,4 +35,12 @@
         </displayedFields>
         <label>AccountFiledSet</label>
     </fieldSets>
+    <fields>
+        <fullName>accId__c</fullName>
+        <displayFormat>{000}</displayFormat>
+        <externalId>false</externalId>
+        <label>accId</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
 </CustomObject>

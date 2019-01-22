@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>43.0</version>
+    <version>39.0</version>
     <types>
         <members>LEXTHEMINGNewTheme1</members>
         <name>BrandingSet</name>
@@ -10,6 +10,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Account.accId__c</members>
         <members>Custom_Test__c.Expense__c</members>
         <name>CustomField</name>
     </types>
@@ -25,5 +26,10 @@
     <types>
         <members>NewTheme1</members>
         <name>LightningExperienceTheme</name>
+    </types>
+    <types>
+        <members>ARProfile10</members>
+        <members>ARProfile2</members>
+        <name>Profile</name>
     </types>
 </Package>
