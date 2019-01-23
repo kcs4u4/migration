@@ -18,6 +18,7 @@
     </types>
     <types>
         <members>AR_Dashboard__c</members>
+        <members>Account</members>
         <members>Custom_Test__c</members>
         <members>Test345__c</members>
         <members>myobj__c</members>
