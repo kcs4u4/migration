@@ -520,7 +520,7 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <encrypted>false</encrypted>
+        <encrypted>true</encrypted>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
