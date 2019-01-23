@@ -13,11 +13,13 @@
         <members>AR_Dashboard__c.Author__c</members>
         <members>Account.accId__c</members>
         <members>Custom_Test__c.Expense__c</members>
+        <members>Test345__c.Test_Encryption__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>AR_Dashboard__c</members>
         <members>Custom_Test__c</members>
+        <members>Test345__c</members>
         <members>myobj__c</members>
         <name>CustomObject</name>
     </types>
