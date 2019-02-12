@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>44.0</version>
     <types>
+        <members>Idea</members>
         <members>Object1__c</members>
         <members>Test345__c</members>
         <name>CustomObject</name>
@@ -10,5 +11,9 @@
         <members>ARProfile10</members>
         <members>ARProfile2</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>IdeaMultiCategory</members>
+        <name>StandardValueSet</name>
     </types>
 </Package>
