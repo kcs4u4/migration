@@ -53,6 +53,14 @@
         <picklistValues>
             <picklist>Categories</picklist>
             <values>
+                <fullName>TEST3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEST4</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Test1</fullName>
                 <default>false</default>
             </values>

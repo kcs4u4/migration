@@ -11,4 +11,14 @@
         <default>false</default>
         <label>Test2</label>
     </standardValue>
+    <standardValue>
+        <fullName>TEST3</fullName>
+        <default>false</default>
+        <label>TEST3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TEST4</fullName>
+        <default>false</default>
+        <label>TEST4</label>
+    </standardValue>
 </StandardValueSet>
