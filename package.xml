@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>45.0</version>
     <types>
         <members>LEXTHEMINGNewTheme1</members>
         <name>BrandingSet</name>
@@ -29,16 +28,55 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Buider</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>Account.AccountFiledSet</members>
         <name>FieldSet</name>
+    </types>
+    <types>
+        <members>Buider.Banned</members>
+        <name>KeywordList</name>
     </types>
     <types>
         <members>NewTheme1</members>
         <name>LightningExperienceTheme</name>
     </types>
     <types>
+        <members>Buider</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
+        <members>Buider.Block_banned_keywords</members>
+        <members>Buider.Flag_banned</members>
+        <members>Buider.Freeze_for_frequent_posting</members>
+        <members>Buider.Replace_banned</members>
+        <members>Buider.Review_the_first_post</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>Buider</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>cbBuider</members>
+        <name>NetworkBranding</name>
+    </types>
+    <types>
         <members>ARProfile10</members>
         <members>ARProfile2</members>
+        <members>Buider Profile</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Buider1</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
+        <members>Buider.Customer_Members</members>
+        <members>Buider.Members_without_contribution</members>
+        <members>Buider.Partner_and_Customer_members</members>
+        <name>UserCriteria</name>
     </types>
 </Package>
