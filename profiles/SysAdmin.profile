@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
+    <layoutAssignments>
+        <layout>Account-Account %28Sales%29 Layout</layout>
+        <recordType>Account.Test_Kareem</recordType>
+    </layoutAssignments>
     <loginHours>
         <fridayEnd>1260</fridayEnd>
         <fridayStart>660</fridayStart>
