@@ -123,6 +123,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>A600</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A600</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>A602</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -167,10 +175,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AutocreatedDiscLoginHandler1539240204759</apexClass>
+        <apexClass>A600</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AutocreatedDiscLoginHandler1539671912082</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+        <classAccesses>
         <apexClass>AutocreatedDiscLoginHandler1539671912082</apexClass>
         <enabled>true</enabled>
     </classAccesses>
