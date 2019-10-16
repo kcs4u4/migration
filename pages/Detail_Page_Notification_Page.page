@@ -1,0 +1,4 @@
+<apex:page standardController="A__c" extensions="Detail_Page_Notifieer" action="{!Load}" >
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:detail subject="{!A__c.Id}" />
+</apex:page>
