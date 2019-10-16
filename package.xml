@@ -1,8 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>45.0</version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>47.0</version>
+    <types>
+        <members>New_Action_Template</members>
+        <members>Test_action</members>
+        <name>ActionLinkGroupTemplate</name>
+    </types>
     <types>
         <members>Internal Zone</members>
         <name>Community</name>
+    </types>
+    <types>
+        <members>Test_Mobile</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>Idea.Categories</members>
+        <members>Idea.Status</members>
+        <members>Test345__c.Test123__c</members>
+        <members>Test345__c.Test_Encryption__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Idea</members>
@@ -17,6 +34,16 @@
     <types>
         <members>Buider.Banned</members>
         <name>KeywordList</name>
+    </types>
+    <types>
+        <members>SampleMessageChannel</members>
+        <name>LightningMessageChannel</name>
+    </types>
+    <types>
+        <members>Idea.Ideas_Last_7_Days</members>
+        <members>Object1__c.All</members>
+        <members>Test345__c.All</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>Buider</members>
@@ -39,10 +66,20 @@
         <name>NetworkBranding</name>
     </types>
     <types>
+        <members>CM_ChangeEvents_Account</members>
+        <members>CM_ChangeEvents_Contact</members>
+        <name>PlatformEventChannelMember</name>
+    </types>
+    <types>
         <members>ARProfile10</members>
         <members>ARProfile2</members>
+        <members>Admin</members>
         <members>Buider Profile</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Idea.InternalIdeasIdeaRecordType</members>
+        <name>RecordType</name>
     </types>
     <types>
         <members>Buider1</members>
