@@ -2,6 +2,11 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>47.0</version>
     <types>
+        <members>New_Action_Template</members>
+        <members>Test_action</members>
+        <name>ActionLinkGroupTemplate</name>
+    </types>
+    <types>
         <members>A12</members>
         <members>A13</members>
         <members>AInsertAction</members>
