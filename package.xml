@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>46.0</version>
+    <version>47.0</version>
+    <types>
+        <members>Test_Mobile</members>
+        <name>ConnectedApp</name>
+    </types>
     <types>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Warehouse Schema Account Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>SampleMessageChannel</members>
+        <name>LightningMessageChannel</name>
+    </types>
+    <types>
+        <members>CM_ChangeEvents_Account</members>
+        <members>CM_ChangeEvents_Contact</members>
+        <name>PlatformEventChannelMember</name>
     </types>
     <types>
         <members>SysAdmin</members>
