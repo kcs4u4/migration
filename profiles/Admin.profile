@@ -117,24 +117,12 @@
         <apexClass>AuditIntegrationupdate_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>AuditTrail_to_CustomObject</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
 	    <classAccesses>
         <apexClass>AuditTrail_to_CustomObject</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>AuditTrail_to_CustomObject_Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
 	  <classAccesses>
         <apexClass>AuditTrail_to_CustomObject_Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AutoRabitTestClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
 	    <classAccesses>
