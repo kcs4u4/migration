@@ -20,6 +20,7 @@
         <name>PlatformEventChannelMember</name>
     </types>
     <types>
+        <members>Admin</members>
         <members>SysAdmin</members>
         <name>Profile</name>
     </types>
