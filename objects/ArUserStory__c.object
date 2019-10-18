@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Ar User Story</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Story_Name__c</fullName>
+        <defaultValue>$Label.kcs_dev__aaaabcd</defaultValue>
+        <description>Ar User Story</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Ar User Story</inlineHelpText>
+        <label>Story Name</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Today__c</fullName>
+        <defaultValue>$System.OriginDateTime</defaultValue>
+        <description>Ar User Story</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Ar User Story</inlineHelpText>
+        <label>Today</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>isTrue__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Ar User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Ar User Story</inlineHelpText>
+        <label>isTrue</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Ar User Story</label>
+    <visibility>Public</visibility>
+</CustomObject>

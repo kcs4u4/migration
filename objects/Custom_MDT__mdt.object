@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Custom_MDT</label>
+    <pluralLabel>Custom_MDT</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
