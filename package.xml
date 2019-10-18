@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>47.0</version>
     <types>
+        <members>A12</members>
         <members>A13</members>
         <members>AInsertAction</members>
         <members>A_XLS</members>
@@ -1142,6 +1143,95 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Backify__compareVersions</members>
+        <members>Email1</members>
+        <members>FieloCH__CSSChallenges</members>
+        <members>FieloCH__ChallengeLeaderboardView</members>
+        <members>FieloCH__ChallengeMemberView</members>
+        <members>FieloCH__ChallengeMissionsViewDetails</members>
+        <members>FieloCH__ChallengeRewardsViewDetails</members>
+        <members>FieloCH__ChallengeViewDetails</members>
+        <members>FieloCH__Challenges</members>
+        <members>FieloCH__ChallengesSubscribe</members>
+        <members>FieloEE__AddComponent</members>
+        <members>FieloEE__BackEndSupport</members>
+        <members>FieloEE__Banner</members>
+        <members>FieloEE__BarCode</members>
+        <members>FieloEE__BranchMap</members>
+        <members>FieloEE__CMS</members>
+        <members>FieloEE__CMSBasic</members>
+        <members>FieloEE__CSS</members>
+        <members>FieloEE__Catalog</members>
+        <members>FieloEE__Categories</members>
+        <members>FieloEE__Comments</members>
+        <members>FieloEE__DatePickerExtend</members>
+        <members>FieloEE__Editor</members>
+        <members>FieloEE__FieldSet</members>
+        <members>FieloEE__ForgotPassword</members>
+        <members>FieloEE__GetPoints</members>
+        <members>FieloEE__HTMLEditor</members>
+        <members>FieloEE__Head</members>
+        <members>FieloEE__History</members>
+        <members>FieloEE__ICOcomponents</members>
+        <members>FieloEE__LivePreviewForChild</members>
+        <members>FieloEE__LivePreviewForParent</members>
+        <members>FieloEE__MemberBadges</members>
+        <members>FieloEE__MemberRedemptionsView</members>
+        <members>FieloEE__MemberTransactionView</members>
+        <members>FieloEE__MemberView</members>
+        <members>FieloEE__Menu</members>
+        <members>FieloEE__News</members>
+        <members>FieloEE__NewsDetail</members>
+        <members>FieloEE__OrderRecords</members>
+        <members>FieloEE__PhotoUpload</members>
+        <members>FieloEE__RecentRecords</members>
+        <members>FieloEE__Recomend</members>
+        <members>FieloEE__RegisterFacebook</members>
+        <members>FieloEE__RewardDetail</members>
+        <members>FieloEE__Rewarditemloadbackend</members>
+        <members>FieloEE__Search</members>
+        <members>FieloEE__ShoppingCart</members>
+        <members>FieloEE__ShowField</members>
+        <members>FieloEE__SiteFooterFielo</members>
+        <members>FieloEE__SiteHeaderFielo</members>
+        <members>FieloEE__SiteLogin</members>
+        <members>FieloEE__SiteLoginFielo</members>
+        <members>FieloEE__SitePoweredBy</members>
+        <members>FieloEE__SitePoweredByFielo</members>
+        <members>FieloEE__SiteRegister</members>
+        <members>FieloEE__Social</members>
+        <members>FieloEE__Welcome</members>
+        <members>FieloSVY__OrderRecords</members>
+        <members>FieloSVY__Survey</members>
+        <members>FieloSVY__SurveyList</members>
+        <members>MC4SF__CustomApexPageMessages</members>
+        <members>MC4SF__Header</members>
+        <members>MC4SF__InstallSteps</members>
+        <members>MC4SF__Mappings</members>
+        <members>MC4SF__Membership</members>
+        <members>MC4SF__QueryBuilderSteps</members>
+        <members>MC4SF__RetrieveLists</members>
+        <members>MC4SF__SLDS</members>
+        <members>MC4SF__Status</members>
+        <members>MC4SF__Subscriber</members>
+        <members>MC4SF__Subscriptions</members>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <members>Test_Audit</members>
+        <members>Test_chandu</members>
+        <members>myComponent</members>
+        <members>pi__FilteredFrame</members>
+        <members>remotesitehelper</members>
+        <members>simpleComponent</members>
+        <members>unzip</members>
+        <members>zip</members>
+        <members>zipEntry</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>AAAA</members>
         <members>A_XLS</members>
         <members>AccountRecords</members>
         <members>Account_Location</members>
@@ -1598,7 +1688,54 @@
     </types>
     <types>
         <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Article Profile</members>
+        <members>Article2 Profile</members>
+        <members>Article3 Profile</members>
+        <members>Audit Trail Profile</members>
+        <members>Authenticated Website</members>
+        <members>Category 1 Biking Profile</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Customer Community Login User</members>
+        <members>Customer Community Plus Login User</members>
+        <members>Customer Community Plus User</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal Manager Custom</members>
+        <members>Customer Portal Manager Standard</members>
+        <members>External Identity User</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Gold Partner User</members>
+        <members>Guest</members>
+        <members>High Volume Customer Portal User</members>
+        <members>HighVolumePortal</members>
+        <members>Identity User</members>
+        <members>Lightning Platform domain Profile</members>
+        <members>MarketingProfile</members>
+        <members>MyOwn Profile</members>
+        <members>Partner App Subscription User</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>PlatformPortal</members>
+        <members>ReadOnly</members>
+        <members>SADProfile1</members>
+        <members>Setup_Audit Profile</members>
+        <members>Silver Partner User</members>
+        <members>SolutionManager</members>
+        <members>StUser1</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
         <members>SysAdmin</members>
+        <members>Work%2Ecom Only User</members>
+        <members>ashok Profile</members>
         <name>Profile</name>
     </types>
     <types>
