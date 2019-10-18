@@ -43,6 +43,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>new student desc added for testing</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -62,6 +63,92 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>StudentKnownLanguages__c</fullName>
+        <externalId>false</externalId>
+        <label>StudentKnownLanguages</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Telugu</fullName>
+                    <default>false</default>
+                    <label>Telugu</label>
+                </value>
+                <value>
+                    <fullName>Hindi</fullName>
+                    <default>false</default>
+                    <label>Hindi</label>
+                </value>
+                <value>
+                    <fullName>English</fullName>
+                    <default>false</default>
+                    <label>English</label>
+                </value>
+                <value>
+                    <fullName>Tamil</fullName>
+                    <default>false</default>
+                    <label>Tamil</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StudentSkils__c</fullName>
+        <externalId>false</externalId>
+        <label>StudentSkils</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>JAVA</fullName>
+                    <default>false</default>
+                    <label>JAVA</label>
+                </value>
+                <value>
+                    <fullName>HTML</fullName>
+                    <default>false</default>
+                    <label>HTML</label>
+                </value>
+                <value>
+                    <fullName>Javascript</fullName>
+                    <default>false</default>
+                    <label>Javascript</label>
+                </value>
+                <value>
+                    <fullName>JQuery</fullName>
+                    <default>false</default>
+                    <label>JQuery</label>
+                </value>
+                <value>
+                    <fullName>Webservices</fullName>
+                    <default>false</default>
+                    <label>Webservices</label>
+                </value>
+                <value>
+                    <fullName>Spring</fullName>
+                    <default>false</default>
+                    <label>Spring</label>
+                </value>
+                <value>
+                    <fullName>Hibernate</fullName>
+                    <default>false</default>
+                    <label>Hibernate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>Student__c</fullName>
@@ -92,12 +179,67 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <encryptionScheme>None</encryptionScheme>
         <label>Student Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Students</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>sr1</fullName>
+        <active>true</active>
+        <label>sr1</label>
+        <picklistValues>
+            <picklist>StudentKnownLanguages__c</picklist>
+            <values>
+                <fullName>English</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hindi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tamil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telugu</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>StudentSkils__c</picklist>
+            <values>
+                <fullName>HTML</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hibernate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JAVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JQuery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Javascript</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webservices</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <sharingRecalculations>
@@ -129,5 +271,24 @@
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
         <url>https://kcs-dev-ed.my.salesforce.com/lightning/o/Event/home</url>
+    </webLinks>
+    <webLinks>
+        <fullName>sweblink1</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>sweblink1</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>{!Student__c.OwnerEmail}</url>
     </webLinks>
 </CustomObject>

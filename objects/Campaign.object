@@ -68,6 +68,15 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CampaignTestFiled1__c</fullName>
+        <externalId>false</externalId>
+        <label>CampaignTestFiled1</label>
+        <length>30</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CurrencyIsoCode</fullName>
     </fields>
     <fields>

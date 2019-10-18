@@ -44,7 +44,36 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>event_obj</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>TestCompactlayout1</fullName>
+        <fields>CreatedById</fields>
+        <fields>ActivityDate</fields>
+        <fields>DurationInMinutes</fields>
+        <label>TestCompactlayout1</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>TestCompactlayout3</fullName>
+        <fields>CreatedById</fields>
+        <fields>ActivityDate</fields>
+        <fields>DurationInMinutes</fields>
+        <fields>Email</fields>
+        <label>TestCompactlayout3</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>event_obj</fullName>
+        <fields>OwnerId</fields>
+        <fields>CreatedById</fields>
+        <fields>ActivityDate</fields>
+        <fields>Email</fields>
+        <fields>EndDateTime</fields>
+        <label>event obj</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>new_event</fullName>
+        <fields>Attendees</fields>
+        <label>new event</label>
+    </compactLayouts>
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>ActivityDate</fullName>
@@ -57,7 +86,6 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>DurationInMinutes</fullName>
@@ -104,7 +132,6 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <type>Picklist</type>
     </fields>
     <fields>

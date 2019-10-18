@@ -56,6 +56,11 @@
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_DataUsePurposes</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Data Use Purposes</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LegalBasis</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>

@@ -123,7 +123,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>A_Object__c</fullName>
         <defaultValue>false</defaultValue>
@@ -143,6 +143,18 @@
         <fullName>Amount</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Branch_Code__c</fullName>
@@ -180,7 +192,6 @@
     </fields>
     <fields>
         <fullName>CurrentGenerators__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Current Generator(s)</label>
         <length>100</length>
@@ -221,7 +232,6 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
     </fields>
@@ -254,7 +264,6 @@
     </fields>
     <fields>
         <fullName>ExpectedRevenue</fullName>
-        <securityClassification>Confidential</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -278,7 +287,6 @@
     </fields>
     <fields>
         <fullName>MainCompetitors__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Main Competitor(s)</label>
         <length>100</length>
@@ -290,19 +298,16 @@
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>NextStep</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>OrderNumber__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Order Number</label>
         <length>8</length>
@@ -313,8 +318,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Order_Generated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Order Generated</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
-        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -327,7 +340,6 @@
     </fields>
     <fields>
         <fullName>Pricebook2Id</fullName>
-        <securityClassification>Confidential</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
@@ -360,7 +372,6 @@
     </fields>
     <fields>
         <fullName>TrackingNumber__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Tracking Number</label>
         <length>12</length>
@@ -390,16 +401,8 @@
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>
-        <columns>OPPORTUNITY.NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>OPPORTUNITY.AMOUNT</columns>
-        <columns>OPPORTUNITY.CLOSE_DATE</columns>
-        <columns>OPPORTUNITY.STAGE_NAME</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>OPPORTUNITY.CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <label>All Opportunities</label>
-        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>ClosingNextMonth</fullName>
@@ -595,7 +598,7 @@
         <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>
@@ -614,5 +617,38 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Generate_Contract</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Generate Contract</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/flow/Opportunity_to_Contract?OpptyID={!Opportunity.Id}&amp;retURL=/{!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Generate_Order</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Generate Order</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/flow/Opportunity_to_Order?OpptyID={!Opportunity.Id}&amp;retURL=/{!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Generate_Order_Contract</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Generate Order &amp; Contract</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/flow/Opportunity_to_Order_with_Contract?OpptyID={!Opportunity.Id}&amp;retURL=/{!Opportunity.Id}</url>
     </webLinks>
 </CustomObject>

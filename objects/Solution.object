@@ -97,6 +97,12 @@
     </fields>
     <listViews>
         <fullName>AllReviewedSolutions</fullName>
+        <columns>SOLUTION.ISSUE</columns>
+        <columns>SOLUTION.SOLUTION_NUMBER</columns>
+        <columns>SOLUTION.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>SOLUTION.TIMES_USED</columns>
+        <columns>SOLUTION.LAST_UPDATE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>SOLUTION.STATUS_CODE</field>

@@ -75,6 +75,7 @@
     </fields>
     <fields>
         <fullName>Personal_Email__c</fullName>
+        <caseSensitive>true</caseSensitive>
         <description>AR User Story</description>
         <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
@@ -82,7 +83,7 @@
         <label>Personal Email</label>
         <required>true</required>
         <type>Email</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>Phone__c</fullName>
@@ -123,7 +124,7 @@
         <required>true</required>
         <scale>0</scale>
         <type>Number</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>isTrue__c</fullName>
@@ -134,6 +135,16 @@
         <inlineHelpText>AR User Story</inlineHelpText>
         <label>isTrue</label>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>url__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>url</label>
+        <required>true</required>
+        <type>Url</type>
     </fields>
     <label>AR User Story</label>
     <pluralLabel>AR User Storys</pluralLabel>

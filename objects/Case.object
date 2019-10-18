@@ -57,6 +57,31 @@
         <type>Default</type>
     </actionOverrides>
     <businessProcesses>
+        <fullName>CaseSupportProcessTest1</fullName>
+        <description>Testing purpose created a Support Process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>SupportTest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
         <fullName>NewCase</fullName>
         <isActive>true</isActive>
         <values>
@@ -106,7 +131,7 @@
     </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ReadWriteTransfer</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -158,6 +183,19 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>BusinessHoursId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -197,17 +235,14 @@
     </fields>
     <fields>
         <fullName>Comments</fullName>
-        <securityClassification>Confidential</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>ContactEmail</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>ContactFax</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -219,12 +254,10 @@
     </fields>
     <fields>
         <fullName>ContactMobile</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>ContactPhone</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -235,15 +268,12 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
-        <encryptionScheme>None</encryptionScheme>
-        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>EngineeringReqNumber__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
         <length>12</length>
@@ -320,7 +350,6 @@
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -328,7 +357,6 @@
     </fields>
     <fields>
         <fullName>ParentId</fullName>
-        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -495,7 +523,6 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -506,17 +533,14 @@
     </fields>
     <fields>
         <fullName>SuppliedEmail</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>SuppliedName</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>SuppliedPhone</fullName>
-        <securityClassification>Internal</securityClassification>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -525,6 +549,18 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>UAT_fields__c</fullName>
+        <externalId>false</externalId>
+        <label>UAT fields</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AccountQueue_Case</fullName>
@@ -564,16 +600,8 @@
     </listViews>
     <listViews>
         <fullName>MyCases</fullName>
-        <columns>CASES.CASE_NUMBER</columns>
-        <columns>NAME</columns>
-        <columns>CASES.SUBJECT</columns>
-        <columns>CASES.STATUS</columns>
-        <columns>CASES.PRIORITY</columns>
-        <columns>CASES.CREATED_DATE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Team</filterScope>
+        <filterScope>Mine</filterScope>
         <label>My Cases</label>
-        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>MyOpenCases</fullName>
@@ -791,7 +819,7 @@
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
         <fullName>Close_Case</fullName>
         <availability>online</availability>
