@@ -13,8 +13,18 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Case.NewCase</members>
+        <members>Case.Test_Audit</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
         <members>Test_Mobile</members>
         <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>AR_User_Story</members>
+        <members>CLJUL16PAN01</members>
+        <name>CustomLabel</name>
     </types>
     <types>
         <members>Account-Account %28Sales%29 Layout</members>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AR_User_Story</fullName>
+        <categories>AR_UserStory_Queue</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AR User Story</shortDescription>
+        <value>AR_UserStory_Queue</value>
+    </labels>
+    <labels>
+        <fullName>CLJUL16PAN01</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLJUL16PAN01 - New</shortDescription>
+        <value>New</value>
+    </labels>
+</CustomLabels>
