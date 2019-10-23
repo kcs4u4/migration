@@ -1,0 +1,13 @@
+This is an Sample email
+<br/>
+Email:  {!Object__c.Email__c}
+<br/>
+mobile : {!Object__c.Mobile__c}
+<br/>
+{!User.Alias}
+<br/>
+ {!label.DX_API}
+{!Contact.CreatedBy}
+{!B__c.Name}
+
+Thanks

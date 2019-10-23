@@ -5,7 +5,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -13,7 +33,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -21,11 +61,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>EnableCustomerPortalUser</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>ListClean</actionName>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -33,7 +89,41 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -41,7 +131,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -49,11 +159,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Tab</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>ViewCustomerPortalUser</actionName>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -61,28 +187,51 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>WebsiteHighlightAction</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>layout1</compactLayoutAssignment>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Account_Compact_Layout</fullName>
         <fields>AccountNumber</fields>
         <fields>OwnerId</fields>
         <label>Account Compact Layout</label>
     </compactLayouts>
-    <compactLayouts>
-        <fullName>layout1</fullName>
-        <fields>Name</fields>
-        <fields>AccountNumber</fields>
-        <fields>OwnerId</fields>
-        <fields>Site</fields>
-        <fields>AccountSource</fields>
-        <fields>CleanStatus</fields>
-        <fields>DandbCompanyId</fields>
-        <fields>Jigsaw</fields>
-        <label>layout1</label>
-    </compactLayouts>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>ReadWrite</externalSharingModel>
@@ -273,6 +422,7 @@
     </fieldSets>
     <fields>
         <fullName>AccountNumber</fullName>
+        <description>Hello</description>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -321,6 +471,7 @@
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
+        <encryptionScheme>CaseSensitiveDeterministicEncryption</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -406,6 +557,8 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -414,6 +567,7 @@
     </fields>
     <fields>
         <fullName>Fax</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -484,6 +638,7 @@
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
@@ -529,10 +684,13 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+        <encryptionScheme>CaseSensitiveDeterministicEncryption</encryptionScheme>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Rating</fullName>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -549,6 +707,7 @@
     </fields>
     <fields>
         <fullName>SLAExpirationDate__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>SLA Expiration Date</label>
         <required>false</required>
@@ -557,9 +716,10 @@
     </fields>
     <fields>
         <fullName>SLASerialNumber__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>SLA Serial Number</label>
-        <length>26</length>
+        <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
@@ -600,6 +760,7 @@
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
+        <encryptionScheme>CaseSensitiveDeterministicEncryption</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -612,6 +773,7 @@
     </fields>
     <fields>
         <fullName>Site</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -659,6 +821,7 @@
     </fields>
     <fields>
         <fullName>Type</fullName>
+        <inlineHelpText>aqdwdwqsvdws</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -704,6 +867,7 @@
     </fields>
     <fields>
         <fullName>Website</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -763,70 +927,6 @@
         <type>Percent</type>
     </fields>
     <fields>
-        <fullName>setpicklistfield1__c</fullName>
-        <externalId>false</externalId>
-        <label>setpicklistfield1</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>9</fullName>
-                    <default>false</default>
-                    <label>9</label>
-                </value>
-                <value>
-                    <fullName>1</fullName>
-                    <default>false</default>
-                    <label>1</label>
-                </value>
-                <value>
-                    <fullName>2</fullName>
-                    <default>false</default>
-                    <label>2</label>
-                </value>
-                <value>
-                    <fullName>3</fullName>
-                    <default>false</default>
-                    <label>3</label>
-                </value>
-                <value>
-                    <fullName>4</fullName>
-                    <default>false</default>
-                    <label>4</label>
-                </value>
-                <value>
-                    <fullName>5</fullName>
-                    <default>false</default>
-                    <label>5</label>
-                </value>
-                <value>
-                    <fullName>8</fullName>
-                    <default>false</default>
-                    <label>8</label>
-                </value>
-                <value>
-                    <fullName>6</fullName>
-                    <default>false</default>
-                    <label>6</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>test_fieldjune07__c</fullName>
-        <externalId>false</externalId>
-        <label>test fieldjune07</label>
-        <length>100</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>up_date_Filed1__c</fullName>
         <externalId>false</externalId>
         <formula>Update_Field__c +1</formula>
@@ -840,16 +940,24 @@
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <label>All Accounts</label>
-    </listViews>
-    <listViews>
-        <fullName>MyAccounts</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Accounts</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>NewLastWeek</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>ACCOUNT.CREATED_DATE</field>
@@ -857,16 +965,7 @@
             <value>LAST_WEEK</value>
         </filters>
         <label>New Last Week</label>
-    </listViews>
-    <listViews>
-        <fullName>NewThisWeek</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>ACCOUNT.CREATED_DATE</field>
-            <operation>equals</operation>
-            <value>THIS_WEEK</value>
-        </filters>
-        <label>New This Week</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>PlatinumandGoldSLACustomers</fullName>
@@ -875,8 +974,9 @@
         <columns>ACCOUNT.ADDRESS1_STATE</columns>
         <columns>ACCOUNT.PHONE1</columns>
         <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Everything</filterScope>
+        <filterScope>MyTerritory</filterScope>
         <label>Platinum and Gold SLA Customers</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>sscascs</fullName>

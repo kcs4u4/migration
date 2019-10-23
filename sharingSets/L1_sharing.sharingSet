@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>L1 sharing</name>
+    <profiles>authenticated website</profiles>
+    <profiles>external identity user</profiles>
+</SharingSet>

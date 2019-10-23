@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action Description --></label>
+        <name>FieloDRE__ActionDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>FieloDRE__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloDRE__Member__c</name>
+        <relationshipLabel><!-- Rules Applied --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Points Decimal --></label>
+        <name>FieloDRE__PointsDecimal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points --></label>
+        <name>FieloDRE__Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion --></label>
+        <name>FieloDRE__Promotion__c</name>
+        <relationshipLabel><!-- Rules Applied --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rule Description --></label>
+        <name>FieloDRE__RuleDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule --></label>
+        <name>FieloDRE__Rule__c</name>
+        <relationshipLabel><!-- Rules Applied --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction --></label>
+        <name>FieloDRE__Transaction__c</name>
+        <relationshipLabel><!-- Rules Applied --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

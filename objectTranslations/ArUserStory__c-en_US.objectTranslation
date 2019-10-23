@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ar User Story</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ar User Story</value>
+    </caseValues>
+    <fields>
+        <help><!-- Ar User Story --></help>
+        <label><!-- Story Name --></label>
+        <name>Story_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ar User Story --></help>
+        <label><!-- Today --></label>
+        <name>Today__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ar User Story --></help>
+        <label><!-- isTrue --></label>
+        <name>isTrue__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMSConnectSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectionType>Public</connectionType>
+    <developerName>Setup_test</developerName>
+    <languageEnabled>N</languageEnabled>
+    <masterLabel>Setup_test</masterLabel>
+    <personalizationEnabled>N</personalizationEnabled>
+    <sortOrder>2</sortOrder>
+    <status>INACTIVE</status>
+    <type>AEM</type>
+    <websiteUrl>https://www.google.com</websiteUrl>
+</CMSConnectSource>

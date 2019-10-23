@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Article.Content:Test_topic</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Test_topic</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Article.Featured:Hello_test</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Hello_test</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Article.Navigational:Hello_test</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Hello_test</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

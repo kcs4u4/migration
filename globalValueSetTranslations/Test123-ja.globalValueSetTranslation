@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>A</masterLabel>
+        <translation>Test</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>B</masterLabel>
+        <translation>Test</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>C</masterLabel>
+        <translation>Test</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D</masterLabel>
+        <translation>Test</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E</masterLabel>
+        <translation>xwq</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>F</masterLabel>
+        <translation>qwddwq</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>G</masterLabel>
+        <translation>dwqdwq</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>H</masterLabel>
+        <translation><!-- H --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

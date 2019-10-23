@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityThemeDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customThemeLayoutType>
+        <label>cmO0XelOinXfST2t47xrf15SqmEwVS</label>
+    </customThemeLayoutType>
+    <defaultBrandingSet>Audit_Trail</defaultBrandingSet>
+    <enableExtendedCleanUpOnDelete>true</enableExtendedCleanUpOnDelete>
+    <masterLabel>Audit_Trail</masterLabel>
+    <publisher>Goud</publisher>
+    <themeSetting>
+        <themeLayout>Audit_Trail_themeLayout_kcs_dev_MyOwn_themeLayout_Login</themeLayout>
+        <themeLayoutType>Login</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <customThemeLayoutType>cmO0XelOinXfST2t47xrf15SqmEwVS</customThemeLayoutType>
+        <themeLayout>Audit_Trail_themeLayout_kcs_dev_MyOwn_themeLayout_Home</themeLayout>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Audit_Trail_themeLayout_kcs_dev_MyOwn_themeLayout_Default</themeLayout>
+        <themeLayoutType>Inner</themeLayoutType>
+    </themeSetting>
+</CommunityThemeDefinition>

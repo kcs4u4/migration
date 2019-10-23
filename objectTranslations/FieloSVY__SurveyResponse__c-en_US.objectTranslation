@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Pollster Event --></label>
+        <name>FieloSVY__EventPollster__c</name>
+        <relationshipLabel><!-- Survey Responses (Pollster Event) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>FieloSVY__Event__c</name>
+        <relationshipLabel><!-- Survey Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloSVY__Member__c</name>
+        <relationshipLabel><!-- Survey Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pollster --></label>
+        <name>FieloSVY__Pollster__c</name>
+        <relationshipLabel><!-- Survey Responses (Pollster) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>FieloSVY__Survey__c</name>
+        <relationshipLabel><!-- Survey Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pollster Transaction --></label>
+        <name>FieloSVY__TransactionPollster__c</name>
+        <relationshipLabel><!-- Survey Responses (Pollster Transaction) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction --></label>
+        <name>FieloSVY__Transaction__c</name>
+        <relationshipLabel><!-- Survey Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>FieloSVY__UniqueKey__c</name>
+    </fields>
+</CustomObjectTranslation>

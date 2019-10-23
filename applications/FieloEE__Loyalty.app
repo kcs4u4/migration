@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Fielo</label>
+    <logo>FieloEE__FieloDocs/FieloEE__FieloLogoSmallBackEnd.png</logo>
+    <tabs>FieloEE__Settings</tabs>
+    <tabs>FieloEE__FrontEnd</tabs>
+    <tabs>FieloEE__Promotion__c</tabs>
+    <tabs>FieloEE__Reward__c</tabs>
+    <tabs>FieloEE__Member__c</tabs>
+    <tabs>FieloEE__Redemption__c</tabs>
+    <tabs>FieloEE__Transaction__c</tabs>
+    <tabs>FieloEE__LoyaltyReport</tabs>
+    <tabs>AutoRabitTest__c</tabs>
+    <tabs>ARVault__c</tabs>
+    <tabs>Object_Depenency__c</tabs>
+    <tabs>Categorys__x</tabs>
+    <tabs>Audit_Trail__c</tabs>
+    <tabs>Testabc__c</tabs>
+    <tabs>Data1__c</tabs>
+    <tabs>SetupTest__c</tabs>
+    <tabs>Case_Event__c</tabs>
+    <tabs>Test345__c</tabs>
+    <tabs>Tower__c</tabs>
+    <tabs>AR_User_Storys__c</tabs>
+</CustomApplication>

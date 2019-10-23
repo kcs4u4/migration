@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>AR User Story</description>
+    <motif>Custom38: Camera</motif>
+    <splashPageLink>FieloCH__ChallengeSplash</splashPageLink>
+</CustomTab>

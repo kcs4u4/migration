@@ -1,0 +1,12 @@
+<apex:page controller="myController">
+
+<apex:form >
+   <apex:commandButton action="{!save}" value="Update Account"/>
+    <!--Account attributes available for editing -->
+<apex:actionRegion >
+    <apex:commandButton action="{!save}" value="Update Contacts"/>
+     <!--Contact attributes available for editing -->
+    </apex:actionRegion>
+</apex:form>
+
+</apex:page>

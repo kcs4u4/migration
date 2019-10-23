@@ -1,0 +1,9 @@
+<messaging:emailTemplate subject="asccs" recipientType="Lead" relatedToType="Account">
+<messaging:plainTextEmailBody >
+<script>
+alert('enter name');
+</script>
+Congratulations!
+This is your new Visualforce Email Template.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

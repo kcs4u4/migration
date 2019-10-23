@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Branch1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branch1</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- newDepen --></label>
+        <name>newDepen</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Branch2 --></label>
+        <name>Branch2__c</name>
+        <relationshipLabel><!-- Branch1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Branch Code --></label>
+        <name>Branch_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewBranch2 --></label>
+        <name>NewBranch2__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewEmail --></label>
+        <name>NewEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewForm --></label>
+        <name>NewForm__c</name>
+    </fields>
+    <fields>
+        <label><!-- new123 --></label>
+        <name>new123__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- HelpRecordType --></label>
+        <name>HelpRecordType</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- new reason --></label>
+        <name>new_reason</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Hello --></errorMessage>
+        <name>new_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- NeButton --></label>
+        <name>NeButton</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- new_button --></label>
+        <name>new_button</name>
+    </webLinks>
+</CustomObjectTranslation>

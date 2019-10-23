@@ -16,4 +16,15 @@ public with sharing class ForgotPasswordController {
   		}
   		return null;
   	}
+    
+     public PageReference method1(){
+       
+  		return null;
+         
+    }
+    
+    public void method2(){
+        
+         
+    }
 }

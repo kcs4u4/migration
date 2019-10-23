@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hotfix</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Hotfixes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Hotfix Assigned To --></label>
+        <name>Hotfix_Assigned_To__c</name>
+        <relationshipLabel><!-- Hotfixes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Migrated? --></label>
+        <name>IsMigrated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Date --></label>
+        <name>MigrationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Commit# --></label>
+        <name>RevisionCommit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migrated</masterLabel>
+            <translation><!-- Migrated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request For Validation</masterLabel>
+            <translation><!-- Request For Validation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation><!-- Reviewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

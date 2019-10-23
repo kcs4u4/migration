@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectedApp>sf_com_apps__Workbench</connectedApp>
+    <label>New Test PPermission</label>
+    <requiredPermission>
+        <customPermission>New_Permission1</customPermission>
+        <dependency>true</dependency>
+    </requiredPermission>
+</CustomPermission>

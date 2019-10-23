@@ -5,7 +5,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -13,7 +33,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -21,7 +61,27 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
@@ -37,27 +97,33 @@
     </fields>
     <fields>
         <fullName>BccAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>CcAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>FirstOpenedDate</fullName>
     </fields>
     <fields>
         <fullName>FromAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>FromName</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>HasAttachment</fullName>
     </fields>
     <fields>
         <fullName>Headers</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>HtmlBody</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Incoming</fullName>
@@ -90,12 +156,15 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>TextBody</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>ToAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>ValidatedFromAddress</fullName>

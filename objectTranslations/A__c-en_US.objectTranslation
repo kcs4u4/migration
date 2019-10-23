@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>A</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>A</value>
+    </caseValues>
+    <fields>
+        <label><!-- ABC --></label>
+        <name>ABC__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- C --></label>
+        <name>C__c</name>
+        <relationshipLabel><!-- A --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DEF --></label>
+        <name>DEF__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hello --></label>
+        <name>Hello__c</name>
+    </fields>
+    <fields>
+        <label><!-- New --></label>
+        <name>New__c</name>
+    </fields>
+    <fields>
+        <label><!-- One --></label>
+        <name>One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time --></label>
+        <name>Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch3 --></label>
+        <name>srinu__c</name>
+        <relationshipLabel><!-- A --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- NewTest --></label>
+        <name>NewTest</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- cscscx --></description>
+        <label><!-- newType1 --></label>
+        <name>newType1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- NewLink --></label>
+        <name>NewLink</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>Send_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_email1 --></label>
+        <name>Send_email1</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Temp --></label>
+        <name>Temp</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>AccountQueue</name>
+    <queueMembers>
+        <roles>
+            <role>CEO</role>
+            <role>CFO</role>
+        </roles>
+        <users>
+            <user>integration@00d28000001imlueak.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Branch2__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Branch__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

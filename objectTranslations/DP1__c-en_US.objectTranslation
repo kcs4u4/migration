@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DP1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DP1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- DP1info --></label>
+        <name>DP1info__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

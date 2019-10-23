@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer</value>
+    </caseValues>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT_Tax --></label>
+        <name>IT_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salary --></label>
+        <name>Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume/Day --></label>
+        <name>Volume_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Day percentile --></label>
+        <name>Volume_Day_percentile__c</name>
+    </fields>
+    <fields>
+        <label><!-- cost --></label>
+        <name>cost__c</name>
+        <picklistValues>
+            <masterLabel>FEE</masterLabel>
+            <translation><!-- FEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KIND OF FUEL</masterLabel>
+            <translation><!-- KIND OF FUEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KIND OF FUEL &amp; FEE</masterLabel>
+            <translation><!-- KIND OF FUEL &amp; FEE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- fee --></label>
+        <name>fee__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Check --></label>
+        <name>Check</name>
+    </webLinks>
+</CustomObjectTranslation>

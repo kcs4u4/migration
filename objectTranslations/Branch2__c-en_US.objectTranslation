@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Branch2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branch2</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test1 --></label>
+        <name>Test1</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Branch Code --></label>
+        <name>Branch_Code2__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewEmail --></label>
+        <name>NewEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salary --></label>
+        <name>Salary__c</name>
+    </fields>
+    <sharingReasons>
+        <label><!-- NewRuleBranch2 --></label>
+        <name>NewRuleBranch2</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Test_Reason --></label>
+        <name>Test_Reason</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

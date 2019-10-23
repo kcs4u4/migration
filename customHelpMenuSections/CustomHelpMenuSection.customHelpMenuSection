@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customHelpMenuItems>
+        <linkUrl>https://kcs-dev-ed.lightning.force.com/lightning/setup/DataClassificationSettings/home</linkUrl>
+        <masterLabel>Test Label</masterLabel>
+        <sortOrder>1</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://qa2.autorabit.com/index.html</linkUrl>
+        <masterLabel>Help Autp</masterLabel>
+        <sortOrder>2</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>Help Menu</masterLabel>
+</CustomHelpMenuSection>

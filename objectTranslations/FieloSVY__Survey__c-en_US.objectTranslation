@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>FieloSVY__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment Id --></label>
+        <name>FieloSVY__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>FieloSVY__Category__c</name>
+        <relationshipLabel><!-- Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify the menu where the partner is going to be redirected after submitting the survey --></help>
+        <label><!-- Menu --></label>
+        <name>FieloSVY__Menu__c</name>
+        <relationshipLabel><!-- Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If you want to enforce that a member submit only one time the Survey --></help>
+        <label><!-- One Answer Only --></label>
+        <name>FieloSVY__OneAnswerOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pollster --></label>
+        <name>FieloSVY__Pollster__c</name>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction</masterLabel>
+            <translation><!-- Transaction --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respondent --></label>
+        <name>FieloSVY__Respondent__c</name>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction</masterLabel>
+            <translation><!-- Transaction --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a description text that will be shown below the title above the survey --></help>
+        <label><!-- Survey Description --></label>
+        <name>FieloSVY__SurveyDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a title that will be displayed above the description text, on top of the survey --></help>
+        <label><!-- Title --></label>
+        <name>FieloSVY__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

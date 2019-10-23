@@ -1,0 +1,7 @@
+<apex:page >
+<apex:outputText value="(page) This is before the custom component"/><br/>
+    <c:myComponent >
+    <apex:outputText value="(page) This is between the custom component" /> <br/>
+    </c:myComponent>
+    <apex:outputText value="(page) This after the custom component"></apex:outputText>
+</apex:page>

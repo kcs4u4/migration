@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AutoRabitTest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AutoRabitTest</value>
+    </caseValues>
+    <fields>
+        <label><!-- CP Mail --></label>
+        <name>CP_Mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- CP Phone --></label>
+        <name>CP_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- CounterParty --></label>
+        <name>CounterParty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Trip --></label>
+        <name>Field_Trip__c</name>
+        <relationshipLabel><!-- AutoRabitTest --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NewEmail --></label>
+        <name>NewEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewTstSimple --></label>
+        <name>NewTstSimple__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- next123 --></label>
+        <name>next123__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

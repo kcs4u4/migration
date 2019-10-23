@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AR User Story</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AR User Story</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </fieldSets>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Asset --></label>
+        <name>AR_User_Storys__c</name>
+        <relationshipLabel><!-- AR User Story --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- A --></label>
+        <name>A__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Acc_Billing_Address --></label>
+        <name>Acc_Billing_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Authorization Form --></label>
+        <name>Authorization_Form__c</name>
+        <relationshipLabel><!-- AR User Story --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- B --></label>
+        <name>B__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Billing Addres --></label>
+        <name>Billing_Addres__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Categorys --></label>
+        <name>Categorys__c</name>
+        <relationshipLabel><!-- AR User Story --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Date  time --></label>
+        <name>Date_time__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Geo --></label>
+        <name>Geo__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Link --></label>
+        <name>Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Multi --></label>
+        <name>Multi__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Number --></label>
+        <name>Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Percent --></label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Personal Email --></label>
+        <name>Personal_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Pick --></label>
+        <name>Pick__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- Time --></label>
+        <name>Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- AR User Story --></help>
+        <label><!-- isChecked --></label>
+        <name>isChecked__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- AR User Story --></errorMessage>
+        <name>Not_Empty</name>
+    </validationRules>
+</CustomObjectTranslation>

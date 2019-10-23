@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CO1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CO1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- CO2 --></label>
+        <name>CO2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CO3 --></label>
+        <name>CO3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CO4 --></label>
+        <name>CO4__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Branch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branch</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- NewFieldSet --></label>
+        <name>NewFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Branch1 --></label>
+        <name>Branch1__c</name>
+        <relationshipLabel><!-- Branch --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Branch1 formula --></label>
+        <name>Branch1_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch2 --></label>
+        <name>Branch2__c</name>
+        <relationshipLabel><!-- Branch --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Branch2 formula --></label>
+        <name>Branch2_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch3 --></label>
+        <name>Branch3__c</name>
+        <relationshipLabel><!-- Branch --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Branch3 formula --></label>
+        <name>Branch3_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch Code --></label>
+        <name>Branch_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula2 --></label>
+        <name>Formula2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula3 --></label>
+        <name>Formula3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula4 --></label>
+        <name>Formula4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula5 --></label>
+        <name>Formula5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fromula1 --></label>
+        <name>Fromula1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImageFormula --></label>
+        <name>ImageFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- NewFormula1 --></label>
+        <name>NewFormula1__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Dte --></label>
+        <name>New_Dte__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Email --></label>
+        <name>New_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Num --></label>
+        <name>New_Num__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Phone --></label>
+        <name>New_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- New text --></label>
+        <name>New_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- new url --></label>
+        <name>new_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- photos --></label>
+        <name>photos__c</name>
+    </fields>
+    <fields>
+        <label><!-- vsv --></label>
+        <name>vsv__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- NEWTEST --></label>
+        <name>NEWTEST</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NewRecordType --></label>
+        <name>NewRecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- New Error --></errorMessage>
+        <name>NewValid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No Error --></errorMessage>
+        <name>NewValidation1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- NEW ERROR --></errorMessage>
+        <name>New_VAlidta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- nulll --></errorMessage>
+        <name>NextValid</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Custom1 --></label>
+        <name>Custom1</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom2 --></label>
+        <name>Custom2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewTest13 --></label>
+        <name>NewTest13</name>
+    </webLinks>
+</CustomObjectTranslation>

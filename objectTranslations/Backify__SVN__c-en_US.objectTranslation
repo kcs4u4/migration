@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Current version of the component. --></help>
+        <label><!-- Current Version --></label>
+        <name>Backify__Current_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when it was last modified. --></help>
+        <label><!-- Last Modified Date --></label>
+        <name>Backify__Last_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- User who last modified the component. --></help>
+        <label><!-- Last Modified by(User) --></label>
+        <name>Backify__Last_Modified_by_User__c</name>
+        <relationshipLabel><!-- SVNs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Size --></label>
+        <name>Backify__Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status indicating whether the component is active or not. --></help>
+        <label><!-- Status --></label>
+        <name>Backify__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- ID of the component. --></help>
+        <label><!-- referenceID --></label>
+        <name>Backify__referenceID__c</name>
+    </fields>
+</CustomObjectTranslation>
