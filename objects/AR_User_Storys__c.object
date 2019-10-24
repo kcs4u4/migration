@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>AR User Story</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Test</fullName>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Test</description>
+        <displayedFields>
+            <field>Authorization_Form__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Test</label>
+    </fieldSets>
+    <fields>
+        <fullName>AR_User_Storys__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Asset</label>
+        <lookupFilter>
+            <active>true</active>
+            <infoMessage>AR User Story</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>AR User Story</relationshipLabel>
+        <relationshipName>AR_User_Story</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>A__c</fullName>
+        <description>AR User Story</description>
+        <displayFormat>a-{000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>A</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Acc_Billing_Address__c</fullName>
+        <description>AR User Story</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Acc_Billing_Address</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Address__c</fullName>
+        <description>AR User Story</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Address</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Authorization_Form__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Authorization Form</label>
+        <referenceTo>AuthorizationForm</referenceTo>
+        <relationshipLabel>AR User Story</relationshipLabel>
+        <relationshipName>AR_User_Story</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>B__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>B</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Addres__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Billing Addres</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
+    <fields>
+        <fullName>Categorys__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Categorys</label>
+        <length>50</length>
+        <referenceTo>Categorys__x</referenceTo>
+        <relationshipLabel>AR User Story</relationshipLabel>
+        <relationshipName>AR_User_Story</relationshipName>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>ExternalLookup</type>
+    </fields>
+    <fields>
+        <fullName>Currency__c</fullName>
+        <defaultValue>100</defaultValue>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Currency</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <description>AR User Story</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_time__c</fullName>
+        <defaultValue>$System.OriginDateTime</defaultValue>
+        <description>AR User Story</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Date  time</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Geo__c</fullName>
+        <description>AR User Story</description>
+        <displayLocationInDecimal>false</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Geo</label>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Location</type>
+    </fields>
+    <fields>
+        <fullName>Link__c</fullName>
+        <description>AR User Story</description>
+        <encryptionScheme>CaseInsensitiveDeterministicEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Link</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Multi__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Multi</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>true</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <defaultValue>$Label.kcs_dev__aaaabcd</defaultValue>
+        <description>AR User Story</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Name</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>AR User Story</description>
+        <externalId>true</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Number</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Percent__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Percent</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Personal_Email__c</fullName>
+        <description>AR User Story</description>
+        <encryptionScheme>CaseSensitiveDeterministicEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Personal Email</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <description>AR User Story</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Phone</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Pick__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Pick</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>true</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Time__c</fullName>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>Time</label>
+        <length>7</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>isChecked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>AR User Story</description>
+        <externalId>false</externalId>
+        <inlineHelpText>AR User Story</inlineHelpText>
+        <label>isChecked</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>AR User Story</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>AR User Story Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>AR User Story</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Not_Empty</fullName>
+        <active>true</active>
+        <description>AR User Story</description>
+        <errorConditionFormula>Acc_Billing_Address__c &lt;&gt; NULL</errorConditionFormula>
+        <errorMessage>AR User Story</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
