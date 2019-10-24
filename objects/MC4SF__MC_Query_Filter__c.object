@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>MC4SF__Display_Order__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Display Order</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MC4SF__Error_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Error Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MC4SF__Field_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Field Label</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MC4SF__Field_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Field Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MC4SF__Field_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Field Type</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MC4SF__MC_Query__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MC Query</label>
+        <referenceTo>MC4SF__MC_Query__c</referenceTo>
+        <relationshipLabel>MC Query Filters</relationshipLabel>
+        <relationshipName>MC_Query_Filters</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MC4SF__Object_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Object Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MC4SF__Operator__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Operator</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Equals</fullName>
+                    <default>false</default>
+                    <label>Equals</label>
+                </value>
+                <value>
+                    <fullName>Not Equal To</fullName>
+                    <default>false</default>
+                    <label>Not Equal To</label>
+                </value>
+                <value>
+                    <fullName>Starts With</fullName>
+                    <default>false</default>
+                    <label>Starts With</label>
+                </value>
+                <value>
+                    <fullName>Contains</fullName>
+                    <default>false</default>
+                    <label>Contains</label>
+                </value>
+                <value>
+                    <fullName>Does Not Contain</fullName>
+                    <default>false</default>
+                    <label>Does Not Contain</label>
+                </value>
+                <value>
+                    <fullName>Less Than</fullName>
+                    <default>false</default>
+                    <label>Less Than</label>
+                </value>
+                <value>
+                    <fullName>Greater Than</fullName>
+                    <default>false</default>
+                    <label>Greater Than</label>
+                </value>
+                <value>
+                    <fullName>Less or Equal</fullName>
+                    <default>false</default>
+                    <label>Less or Equal</label>
+                </value>
+                <value>
+                    <fullName>Greater or Equal</fullName>
+                    <default>false</default>
+                    <label>Greater or Equal</label>
+                </value>
+                <value>
+                    <fullName>Includes</fullName>
+                    <default>false</default>
+                    <label>Includes</label>
+                </value>
+                <value>
+                    <fullName>Excludes</fullName>
+                    <default>false</default>
+                    <label>Excludes</label>
+                </value>
+                <value>
+                    <fullName>Within</fullName>
+                    <default>false</default>
+                    <label>Within</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MC4SF__Value__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

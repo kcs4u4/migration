@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Cat_Breed__c</fullName>
+        <externalId>false</externalId>
+        <label>Cat Breed</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Cat_Breed</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+</CustomObject>

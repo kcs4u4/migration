@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>FieloSVY__EventPollster__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Pollster Event</label>
+        <referenceTo>FieloEE__Event__c</referenceTo>
+        <relationshipLabel>Survey Responses (Pollster Event)</relationshipLabel>
+        <relationshipName>Survey_Responses_Pollster</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <referenceTo>FieloEE__Event__c</referenceTo>
+        <relationshipLabel>Survey Responses</relationshipLabel>
+        <relationshipName>Survey_Responses</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Member__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Member</label>
+        <referenceTo>FieloEE__Member__c</referenceTo>
+        <relationshipLabel>Survey Responses</relationshipLabel>
+        <relationshipName>Survey_Responses</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Pollster__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Pollster</label>
+        <referenceTo>FieloEE__Member__c</referenceTo>
+        <relationshipLabel>Survey Responses (Pollster)</relationshipLabel>
+        <relationshipName>Survey_Responses1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Survey__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Survey</label>
+        <referenceTo>FieloSVY__Survey__c</referenceTo>
+        <relationshipLabel>Survey Responses</relationshipLabel>
+        <relationshipName>SurveyResponses</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__TransactionPollster__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Pollster Transaction</label>
+        <referenceTo>FieloEE__Transaction__c</referenceTo>
+        <relationshipLabel>Survey Responses (Pollster Transaction)</relationshipLabel>
+        <relationshipName>Survey_Responses_Pollster</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__Transaction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Transaction</label>
+        <referenceTo>FieloEE__Transaction__c</referenceTo>
+        <relationshipLabel>Survey Responses</relationshipLabel>
+        <relationshipName>Survey_Responses</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FieloSVY__UniqueKey__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Unique Key</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+</CustomObject>
