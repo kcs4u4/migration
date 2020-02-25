@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>APS_LAND_AGE_RATE_BANDS_MISSING</fullName>
+        <categories>APS DEBUG ERROR LABELS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>APS LAND AGE RATE BANDS MISSING</shortDescription>
+        <value>No Age Rate Band Records Found in the response for</value>
+    </labels>
+    <labels>
+        <fullName>APS_LAND_BENIFIT_PLAN_DETAIL_MISSING</fullName>
+        <categories>APS DEBUG ERROR LABELS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>APS_LAND_BENIFIT_PLAN_DETAIL_MISSING</shortDescription>
+        <value>Benefit Plan Highlights were not received from services for</value>
+    </labels>
+</CustomLabels>

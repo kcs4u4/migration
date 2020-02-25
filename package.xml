@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>47.0</version>
+    <version>48.0</version>
     <types>
         <members>A12</members>
         <members>A13</members>
@@ -1671,6 +1671,11 @@
     <types>
         <members>Test_Mobile</members>
         <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>APS_LAND_AGE_RATE_BANDS_MISSING</members>
+        <members>APS_LAND_BENIFIT_PLAN_DETAIL_MISSING</members>
+        <name>CustomLabel</name>
     </types>
     <types>
         <members>Account-Account %28Sales%29 Layout</members>
