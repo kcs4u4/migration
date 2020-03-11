@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>47.0</version>
+    <version>46.0</version>
     <types>
         <members>New_Action_Template</members>
         <members>Test_action</members>
@@ -4392,6 +4392,11 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Article</members>
+        <members>Article2</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>AR_User_Storys__c.Test</members>
         <members>Account.AccountFiledSet</members>
         <members>Account.MC4SF__Account_Filter_Fields</members>
@@ -4769,6 +4774,11 @@
         <members>Branch2__c.Test_Reason__c</members>
         <members>Expense__c.testSharingReason__c</members>
         <name>SharingReason</name>
+    </types>
+    <types>
+        <members>Article1</members>
+        <members>Article21</members>
+        <name>SiteDotCom</name>
     </types>
     <types>
         <members>AR_User_Story__mdt.Not_Empty</members>
