@@ -22,6 +22,11 @@
                     <default>false</default>
                     <label>b</label>
                 </value>
+				<value>
+                    <fullName>z</fullName>
+                    <default>false</default>
+                    <label>z</label>
+                </value>
                 <value>
                     <fullName>c</fullName>
                     <default>false</default>
