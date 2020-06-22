@@ -2,7 +2,6 @@ public class A_XLS {
     
     public Id posId{get;set;}
     public Id DealsId{get;set;}
-    // testClass
 	
 
     Public A_XLS(Apexpages.StandardController controller){
